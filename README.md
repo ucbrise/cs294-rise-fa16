@@ -21,6 +21,7 @@ gem install bundle
 then to setup the Jekyll build environment run:
 
 ```bash
+cd path/to/cs294-rise-fa16
 bundle install
 ```
 
