@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: masthead_page
 title: CS294 RISE
-tagline: Real-time Intelligent and Secure Systems
+tagline: <big><b>R</b></big>eal-time, <big><b>I</b></big>ntelligent, and <big><b>Se</b></big>cure Systems
 ---
 {% include JB/setup %}
+
+
+
 
 <!-- 
  Relative links: 
