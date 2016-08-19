@@ -61,7 +61,7 @@ To get permission to enroll in CS294 RISE you must email the instructors a copy 
       </address>
     </div></div>
     <div class="col-md-2"><div class="text-center">
-      <img src="https://people.eecs.berkeley.edu/~raluca/RalucaPreVeil.jpg" alt="Raluca Ada Popa" style="height: 150px;"/>
+      <img src="https://www2.eecs.berkeley.edu/Faculty/Photos/Homepages/ralucap.jpg" alt="Raluca Ada Popa" style="height: 150px;"/>
       <address>
         <strong>Raluca Ada Popa</strong><br>
         <script type="text/javascript"> email_address("raluca.popa") </script>
