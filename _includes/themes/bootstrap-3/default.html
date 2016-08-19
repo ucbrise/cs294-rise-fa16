@@ -23,6 +23,9 @@
 
     <link href="{{ site.baseurl }}/assets/themes/css/monokai2.css" rel="stylesheet" type="text/css" media="all">
 
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
