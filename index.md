@@ -1,36 +1,20 @@
 ---
 layout: page
-title: CS294 
-tagline: RISE Lab
+title: CS294 RISE
+tagline: Real-time Intelligent and Secure Systems
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<!-- 
+ Relative links: 
+   link to readings [pages](reading)
+   relative path of site {{ site.baseurl }}
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+ Running jekyll serve locally: 
 
-## Update Author Attributes
+    bundle exec jekyll serve --baseurl ''
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+ liquid programming example (we should never really need this): 
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +22,67 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+ -->
+
+Put course description here.
+
+### Undergraduate Enrollment Instructions
+
+Undergraduates with a strong research and course background are encouraged to enroll in this class.
+To get permission to enroll in CS294 RISE you must email the instructors a copy of your transcript and description of any prior research experience.
+
+## Instructors
+
+<!-- The following block is for faculty info -->
+<div class="container-fluid">
+  <script type="text/javascript">
+    function email_address(name) {
+      domain = 'cs.berkeley';
+      tld = 'edu';
+      document.write(
+        '<a href="mailto:' + name + '@' + domain + '.' + tld + '">' +
+        name + '@' + domain + '.' + tld + '</a>');
+  }
+  </script>
+  <div class="row">
+    <div class="col-md-2"><div class="text-center">
+      <img src="https://jegonzal.github.io/assets/jegonzal.jpg" alt="Joey Gonzalez" style="height: 150px;"/> 
+      <address>
+        <strong>Joseph E. Gonzalez</strong><br>
+        <script type="text/javascript"> email_address("jegonzal") </script>
+      </address>
+    </div></div> 
+    <div class="col-md-2"><div class="text-center">
+      <img src="https://www2.eecs.berkeley.edu/Faculty/Photos/Homepages/hellerstein.jpg" alt="Joseph Hellerstein" style="height: 150px;"/> 
+      <address>
+        <strong>Joseph Hellerstein</strong><br>
+        <script type="text/javascript"> email_address("hellerstein") </script>
+      </address>
+    </div></div>
+    <div class="col-md-2"><div class="text-center">
+      <img src="https://people.eecs.berkeley.edu/~raluca/RalucaPreVeil.jpg" alt="Raluca Ada Popa" style="height: 150px;"/>
+      <address>
+        <strong>Raluca Ada Popa</strong><br>
+        <script type="text/javascript"> email_address("raluca.popa") </script>
+      </address>
+    </div></div>
+    <div class="col-md-2"><div class="text-center">
+      <img src="https://people.eecs.berkeley.edu/~istoica/ion_picture_small.jpg " alt="Ion Stoica" style="height: 150px;"/>
+      <address>
+        <strong>Ion Stoica</strong><br>
+        <script type="text/javascript"> email_address("istoica") </script>
+      </address>
+    </div></div>
+  </div>
+</div>
+
+
+<!-- | <img src="https://jegonzal.github.io/assets/jegonzal.jpg" alt="Joey Gonzalez" style="height: 150px;"/> | <img src="https://www2.eecs.berkeley.edu/Faculty/Photos/Homepages/hellerstein.jpg" alt="Joseph Hellerstein" style="height: 150px;"/> | <img src="https://people.eecs.berkeley.edu/~raluca/RalucaPreVeil.jpg" alt="Raluca Ada Popa" style="height: 150px;"/> | <img src="https://people.eecs.berkeley.edu/~istoica/ion_picture_small.jpg " alt="Ion Stoica" style="height: 150px;"/> |
+|:-:|:-:|:-:|:-:|
+| Joseph E. Gonzalez | Joe Hellerstein | Raluca Ada Popa | Ion Stoica |
+| <script type="text/javascript"> email_address("jegonzal") </script>| <script type="text/javascript"> email_address("hellerstein") </script>| <script type="text/javascript"> email_address("raluca.popa") </script> | <script type="text/javascript"> email_address("istoica") </script> | -->
+
+
 
 

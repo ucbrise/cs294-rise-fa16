@@ -19,7 +19,7 @@
     <link href="{{ ASSET_PATH }}/css/bs-sticky-footer.css" rel="stylesheet">
     
     <!-- Custom styles -->
-    <link href="{{ site.github.url }}/assets/themes/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ site.baseurl }}/assets/themes/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,12 +63,14 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
+          <!--
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
+          -->
         </div><!-- /.navbar-collapse -->
       </nav>
 

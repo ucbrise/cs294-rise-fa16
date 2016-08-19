@@ -10,8 +10,13 @@
       {% assign BASE_PATH = site.JB.BASE_PATH %}
       {% assign HOME_PATH = site.JB.BASE_PATH %}
     {% else %}
-      {% assign BASE_PATH = nil %}
-      {% assign HOME_PATH = "/" %}
+      {% if site.baseurl != '' %}
+        {% assign BASE_PATH = site.baseurl %}
+        {% assign HOME_PATH = site.baseurl %}  
+      {% else %}      
+        {% assign BASE_PATH = nil %}
+        {% assign HOME_PATH = "/" %}
+      {% endif %}
     {% endif %}
 
     {% if site.JB.ASSET_PATH %}

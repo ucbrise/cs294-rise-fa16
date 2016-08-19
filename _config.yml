@@ -11,16 +11,16 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : CS294 RISE Lab
+title : CS294 RISE Class
 tagline: Real-time, Intelligent, and Secure Systems
 author :
-  name : Joseph E. Gonzalez, Raluca Ada Popa
-  email : jegonzal@berkeley.edu
-  github : jegonzal
-  twitter : username
-  feedburner : feedname
+  name : Joseph E. Gonzalez, Joseph Hellerstein, Raluca Ada Popa, and Ion Stoica
+  email : jegonzal@cs.berkeley.edu
+  github : ucbrise
+  # twitter : username
+  # feedburner : feedname
 
-# baseurl: /cs294
+baseurl: /cs294
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -61,7 +61,8 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : "/cs294"
+  # BASE_PATH : "/cs294"
+  BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
