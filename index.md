@@ -46,28 +46,28 @@ To get permission to enroll in CS294 RISE you must email the instructors a copy 
   }
   </script>
   <div class="row">
-    <div class="col-md-2"><div class="text-center">
+    <div class="col-sm-3"><div class="text-center">
       <img src="https://jegonzal.github.io/assets/jegonzal.jpg" alt="Joey Gonzalez" style="height: 150px;"/> 
       <address>
         <strong>Joseph E. Gonzalez</strong><br>
         <script type="text/javascript"> email_address("jegonzal") </script>
       </address>
     </div></div> 
-    <div class="col-md-2"><div class="text-center">
+    <div class="col-sm-3"><div class="text-center">
       <img src="https://www2.eecs.berkeley.edu/Faculty/Photos/Homepages/hellerstein.jpg" alt="Joseph Hellerstein" style="height: 150px;"/> 
       <address>
         <strong>Joseph Hellerstein</strong><br>
         <script type="text/javascript"> email_address("hellerstein") </script>
       </address>
     </div></div>
-    <div class="col-md-2"><div class="text-center">
+    <div class="col-sm-3"><div class="text-center">
       <img src="https://www2.eecs.berkeley.edu/Faculty/Photos/Homepages/ralucap.jpg" alt="Raluca Ada Popa" style="height: 150px;"/>
       <address>
         <strong>Raluca Ada Popa</strong><br>
         <script type="text/javascript"> email_address("raluca.popa") </script>
       </address>
     </div></div>
-    <div class="col-md-2"><div class="text-center">
+    <div class="col-sm-3"><div class="text-center">
       <img src="https://people.eecs.berkeley.edu/~istoica/ion_picture_small.jpg " alt="Ion Stoica" style="height: 150px;"/>
       <address>
         <strong>Ion Stoica</strong><br>

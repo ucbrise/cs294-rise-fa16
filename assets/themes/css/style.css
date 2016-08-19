@@ -51,6 +51,11 @@ h1, h2, h3, h4 {
   color: #feb834;  
 }
 
+.navbar-header {
+  background-color: #043361;
+  color: #feb834;  
+}
+
 .navbar .nav  a {
   background-color: #043361;
   color: #feb834;
