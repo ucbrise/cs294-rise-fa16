@@ -30,7 +30,7 @@ This is a table containing items covered in the class.
       <td>  8/29/2016 </td>
       <td> 
          <h4> Course Overview </h4>
-         <p>We provide outline the focus of the RISE Lab course and propose some of the key questions that will be explored throughout the term. </p>
+         <p> In the first class we will outline the focus of the RISE Lab course, identify some of the key questions we will explore, and review some of the key solutions today. </p>
       </td>
    </tr>
    <tr id="9/5/2016">
