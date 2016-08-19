@@ -3,7 +3,7 @@ layout: page
 title: "Reading"
 description: "Reading Assignments"
 group: navigation
-order: 2
+order: 3
 ---
 {% include JB/setup %}
 

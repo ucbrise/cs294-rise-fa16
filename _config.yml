@@ -1,6 +1,12 @@
 
 github: [metadata]
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
@@ -14,8 +20,8 @@ highlighter: rouge
 title : CS294 RISE Class
 tagline: Real-time, Intelligent, and Secure Systems
 author :
-  name : Joseph E. Gonzalez, Joseph Hellerstein, Raluca Ada Popa, and Ion Stoica
-  email : jegonzal@cs.berkeley.edu
+  name : UC Berkeley
+  email : rise-faculty@berkeley.edu
   github : ucbrise
   # twitter : username
   # feedburner : feedname
