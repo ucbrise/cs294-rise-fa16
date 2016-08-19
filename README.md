@@ -1,4 +1,4 @@
-# CS294 RISE Class Gihub Pages Website
+# CS294 RISE Class Github Pages Website
 
 To contribute to this class fork this repo and send pull requests with any changes to the content.
 
