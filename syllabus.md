@@ -64,8 +64,14 @@ This is a table containing items covered in the class.
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/3/2016 </td>
-      <td> 
-      TBD (Joe is Absent)
+      <td> <!-- (Joe is Absent) --> 
+         <h4>
+         <a href="{{ site.baseurl }}/prediction_serving.html"> 
+         Prediction Serving and Managing the Machine Learning Life-cycle
+         </a>
+         </h4>
+
+         <p>In this lecture we will explore the bigger machine learning life-cycle and discuss the challenges around serving predictions.</p>
       </td>
    </tr>
    <tr>
