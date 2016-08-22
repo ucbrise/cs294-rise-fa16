@@ -6,6 +6,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  hard_wrap: false
+
 
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
