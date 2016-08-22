@@ -78,8 +78,6 @@ Enabling real-time decisions on live data will lead to a phase transition in dat
 Just as big data led to dramatically better results even when using traditional algorithms, we believe that real-time processing on live data will lead to qualitatively superior results, by enabling rapid exploration of the search space and continuous adaptation to changes in the environment (e.g., enabling large-scale, reinforced learning in real time).
 
 
-
-
 ### Undergraduate Enrollment Instructions
 
 Strong undergraduates with an interest in research and good grades are encouraged to enroll in this class.

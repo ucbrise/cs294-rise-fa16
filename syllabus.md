@@ -12,7 +12,7 @@ This is a table containing items covered in the class.
 {% assign counter = 1 %}
 
 <table class="table table-striped">
-   <colgroup> 
+   <colgroup>
       <col class="col-md-1">
       <col class="col-md-2">
       <col class="col-md-9">
@@ -28,7 +28,7 @@ This is a table containing items covered in the class.
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td>  08/29/2016 </td>
-      <td> 
+      <td>
          <h4> Course Overview </h4>
          <p> In the first class we will outline the focus of the RISE Lab course, identify some of the key questions we will explore, and review some of the key solutions today. </p>
       </td>
@@ -36,121 +36,208 @@ This is a table containing items covered in the class.
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td>  09/5/2016 </td>
-      <td> 
-         <center><h4> Class Canceled for Holiday </h4></center>
+      <td>
+         <h4> Class Canceled for Holiday </h4>
+         <center><h3>Topic Presentations Selected</h3></center>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td>  09/12/2016 </td>
-      <td> 
-      TBD (Joe is absent)
+      <td>
+         <h4>
+            <a href="{{ site.baseurl }}/rendezvous.html">
+            Rendezvous and Bloom (Joe)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 09/19/2016 </td>
-      <td> 
-      TBD
+      <td>
+         <h4>
+            <a href="{{ site.baseurl }}/trusted_hardware.html">
+            Systems Security via Trusted Hardware (Raluca)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 09/26/2016 </td>
-      <td> 
-      TBD (Joe is absent)
+       <td>
+         <h4>
+            <a href="{{ site.baseurl }}/cluster_compute.html">
+            Cluster Compute Frameworks (Ion)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
+         <center><h3>Project Ideas Posted</h3></center>
+         <p>
+            A complete set of project ideas will be posted here.  If you have any suggestions for ideas that you would like collaborators on please add them by sending a pull request.
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/3/2016 </td>
-      <td> <!-- (Joe is Absent) --> 
+      <td> <!-- (Joe is Absent) -->
          <h4>
-         <a href="{{ site.baseurl }}/prediction_serving.html"> 
-         Prediction Serving and Managing the Machine Learning Life-cycle
-         </a>
+            <a href="{{ site.baseurl }}/prediction_serving.html">
+            Prediction Serving and the Machine Learning Life-cycle (Joey)
+            </a>
          </h4>
-
-         <p>In this lecture we will explore the bigger machine learning life-cycle and discuss the challenges around serving predictions.</p>
+         <p>
+            In this lecture we will explore the challenges of serving low-latency predictions at scale and managing the machine learning life-cycle spanning model training and management.
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/10/2016 </td>
-      <td> 
-      TBD 
+      <td>
+         <h4>
+            <a href="{{ site.baseurl }}/missing">
+            Missing ! (TBD)
+            </a>
+         </h4>
+         <p>
+            Summary!
+         </p>
+         <center><h3>
+            Project Team Selections
+         </h3></center>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/17/2016 </td>
-      <td> 
-      TBD (Joe is Absent)
+      <td>
+         <center><h3> Project Proposal Presentations </h3></center>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/24/2016 </td>
-      <td> 
-      TBD (Joe is Absent)
+      <td> <!-- (Joe is Absent) -->
+         <h4>
+            <a href="{{ site.baseurl }}/trusted_hardware2.html">
+               Trusted Hardware Part 2 (Raluca)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 10/31/2016 </td>
-      <td> 
-      TBD 
+       <td> <!-- (Joe is Absent) -->
+         <h4>
+            <a href="{{ site.baseurl }}/deep_learning.html">
+               Overview of Deep Learning (Joey)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 11/7/2016 </td>
-      <td> 
-      TBD 
+       <td>
+         <h4>
+            <a href="{{ site.baseurl }}/crypto_systems.html">
+               Building Systems with Cryptography
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 11/14/2016 </td>
-      <td> 
-      TBD 
+      <td>
+         <h4>
+            <a href="{{ site.baseurl }}/realtime_systems.html">
+               Realtime Systems (Ion)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 11/21/2016 </td>
-      <td> 
-      TBD 
+       <td>
+         <h4>
+            <a href="{{ site.baseurl }}/bandits_and_rl.html">
+               Bandits and Reinforcement Learning (Joey)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 11/28/2016 </td>
-      <td> 
-      TBD 
+      <td>
+         <h4>
+            <a href="{{ site.baseurl }}/metadata.html">
+               Metadata Management (Joe)
+            </a>
+         </h4>
+         <p>
+            Short summary
+         </p>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 12/5/2016 </td>
-      <td> 
-         <center><h4> RRR Week </h4></center>
+      <td>
+         <h4>RRR Week</h4>
       </td>
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td>  12/12/2016 </td>
-      <td> 
-         <center><h4> Final Project Presentations </h4></center>
+      <td>
+         <center><h3> Final Project Presentations and Posters (3 Hours+) </h3></center>
       </td>
    </tr>
+   <tr>
+      <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
+      <td>  12/17/2016 </td>
+      <td>
+         <center><h3> Projects Due </h3></center>
+      </td>
+   </tr>
+
 </tbody>
 </table>
 
 
-<!-- 
+<!--
 
-A little script to highlight the week that is next 
+A little script to highlight the week that is next
 
 -->
 <script type="text/javascript">
@@ -165,7 +252,7 @@ for (var i = 1; i < rows.length && !finished; i++) {
       finished = true;
       var children = r.childNodes
       children[1].style.background = "red"
-   } 
+   }
 }
 </script>
 
