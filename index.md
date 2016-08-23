@@ -2,6 +2,7 @@
 layout: masthead_page
 title: CS294 RISE
 tagline: <big><b>R</b></big>eal-time, <big><b>I</b></big>ntelligent, and <big><b>Se</b></big>cure Systems
+mastimage: /assets/images/rise_cloud.jpg
 ---
 {% include JB/setup %}
 
