@@ -29,8 +29,11 @@ This is a table containing items covered in the class.
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td>  08/29/2016 </td>
       <td>
-         <h4> Course Overview </h4>
+         <h4> Course Overview (Ion, Raluca, Joe, and Joey) </h4>
          <p> In the first class we will outline the focus of the RISE Lab course, identify some of the key questions we will explore, and review some of the key solutions today. </p>
+
+         <h4> Hardware and System Trends (Ion) </h4>
+         <p> Short Summary </p>
       </td>
    </tr>
    <tr>
