@@ -8,9 +8,10 @@ use_math: true
 ---
 {% include JB/setup %}
 
-This page will contain a list of potential projects.
-However if you have some ideas for projects please send an email or even a pull request ([GitHub repository](https://github.com/ucbrise/cs294-rise-fa16/tree/gh-pages)) and we will be happy to add them.
+Because many of the project descriptions are on-going research we have decided to restrict access to students enrolled in the class.  
+However, if you would like access to the projects please email the instructors.
 
+<a href="https://docs.google.com/a/berkeley.edu/document/d/13m61IqKTbMqExafHTz9fWFHk1RsitqlaxsZl5XXOloo/edit?usp=sharing"><h3>Project List Google Document </h3></a>
 
 
 
