@@ -54,7 +54,7 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Short summary
+            Computer scienctists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
          </p>
       </td>
    </tr>
@@ -204,11 +204,11 @@ This is a table containing items covered in the class.
       <td>
          <h4>
             <a href="{{ site.baseurl }}/metadata.html">
-               Metadata Management (Joe)
+               Data Context and Metadata Management (Joe)
             </a>
          </h4>
          <p>
-            Short summary
+We are missing so much rich contextual metadata in our data analysis projects: what data we have, why we have it, how and by whom it gets used, and how all these aspects evolve over time. This *data context* problem raises interesting systems challenges while also suggesting opportunities for new applications and algorithms to significantly improve the efficiency of data analysts.
          </p>
       </td>
    </tr>
