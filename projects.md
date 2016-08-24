@@ -11,8 +11,8 @@ use_math: true
 Because many of the project descriptions are on-going research we have decided to restrict access to students enrolled in the class.  
 However, if you would like access to the projects please email the instructors.
 
-<a href="https://docs.google.com/a/berkeley.edu/document/d/13m61IqKTbMqExafHTz9fWFHk1RsitqlaxsZl5XXOloo/edit?usp=sharing"><h3>Project List Google Document </h3></a>
 
+## [Project List Google Document]("https://docs.google.com/a/berkeley.edu/document/d/13m61IqKTbMqExafHTz9fWFHk1RsitqlaxsZl5XXOloo/edit?usp=sharing")
 
 
 <!-- This is the reading list
