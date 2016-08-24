@@ -50,7 +50,7 @@ This is a table containing items covered in the class.
       <td>
          <h4>
             <a href="{{ site.baseurl }}/rendezvous.html">
-            Rendezvous and Bloom (Joe)
+            Data-Centric Programming (Joe)
             </a>
          </h4>
          <p>
