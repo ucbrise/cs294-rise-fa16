@@ -12,7 +12,7 @@ Because many of the project descriptions are on-going research we have decided t
 However, if you would like access to the projects please email the instructors.
 
 
-## [Project List Google Document]("https://docs.google.com/a/berkeley.edu/document/d/13m61IqKTbMqExafHTz9fWFHk1RsitqlaxsZl5XXOloo/edit?usp=sharing")
+## [Project List Google Document](https://docs.google.com/a/berkeley.edu/document/d/13m61IqKTbMqExafHTz9fWFHk1RsitqlaxsZl5XXOloo/edit?usp=sharing)
 
 
 <!-- This is the reading list
