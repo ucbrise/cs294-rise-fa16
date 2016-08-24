@@ -1,32 +1,26 @@
 ---
 layout: page
-title: "Metadata"
-description: "Metadata and Ground"
+title: "Data Context Metadata"
+description: "Data Context, Metadata and Ground"
 use_math: true
 ---
 
-![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
-
-While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
-In this lecture we will explore the bigger machine learning life-cycle and discuss the challenges around serving predictions.
+ Data analytics researchers like to focus on new engines and algorithms. But most data analytics organizations 
+ have a different and more fundamental problem: their analysts operate in a desperately information-poor environment. We are missing so much rich contextual metadata in our projects: what data we have, why we have it, how and by whom it gets used, and how all these aspects evolve over time. One problem is that we haven't been capturing and recording this information. A second is that we have yet to apply data science to the behavior of data scientists. It is time to get serious about capturing, recording, and analyzing the work people do with data and computation and the contextual human knowledge they bring to those tasks. This *data context* problem raises interesting systems challenges while also suggesting  opportunities for new applications and algorithms to significantly improve the efficiency of data analysts.
 
 ## Reading lists:
 
-### Prediction Serving Systems [?Student Presenters?]
-1. *Deepak Agarwal, Bo Long, Jonathan Traupman, Doris Xin, and Liang Zhang.* 2014. [**LASER: a scalable response prediction platform for online advertising.**](http://dl.acm.org/citation.cfm?id=2556252) In Proceedings of the 7th ACM international conference on Web search and data mining (WSDM '14).
+### Google Goods [?Student Presenters?]
+1. *Halevy, Korn, Noy, et al.*  [**Goods: Organizing Google’s Datasets.**](http://sure) In SIGMOD 2016.
 
 
-### Managing the ML Lifecycle [?Student Presenters?]
-1. *Xinran He, Junfeng Pan, Ou Jin, Tianbing Xu, Bo Liu, Tao Xu, Yanxin Shi, Antoine Atallah, Ralf Herbrich, Stuart Bowers, and Joaquin Quiñonero Candela.* 2014. [**Practical Lessons from Predicting Clicks on Ads at Facebook.**](http://dl.acm.org/citation.cfm?id=2648589) In Proceedings of the Eighth International Workshop on Data Mining for Online Advertising (ADKDD'14).
-
-1. *D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young* 2014. [**Machine Learning: The High Interest Credit Card of Technical Debt**](http://research.google.com/pubs/pub43146.html). SE4ML: Software Engineering for Machine Learning (NIPS 2014 Workshop)
+### Ground [?Student Presenters?]
+1. *Hellerstein, Sreekanti, Gonzalez, et al.* 2016. [**Establishing Common Ground with Data Context**](under submission).
 
 
 ### Questions:
 
-1. What differentiates serving machine learning models from standard data serving?
-
-1. Name one way in which algorithmic advances simplify model serving and one way in which they add additional challenges.
+1. How do Ground and Goods differ in goals and design? Can either one grow up to serve the goals of the other or are they fundamentally divergent?
 
 
 
