@@ -250,8 +250,8 @@ var finished =  false;
 for (var i = 1; i < rows.length && !finished; i++) {
    var r = rows[i];
    var date_text = r.getElementsByTagName("td")[0].textContent;
-   var d = new Date(date_text);
-   if (current_date < d) {
+   var d = new Date(date_text + " 23:59:59");
+   if (current_date <= d) {
       finished = true;
       var children = r.childNodes
       children[1].style.background = "red"
