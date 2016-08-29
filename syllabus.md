@@ -68,7 +68,8 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Short summary
+            We will learn about a new trusted hardware proposal from Intel, SGX. Moreover, we will see how one can protect the confidentiality
+            and integrity of the data and computation from a compromised cloud provider using Intel SGX (as in the Haven system). This area is fascinating because it enables a (compromised) cloud provider to run complex systems such as databases without ever seeing the data or the computation it is running, and without being able to cheat in the process. Even if attackers obtain root access on the cloud provider's machines, they won't see the data or affect the correctness of the computation.
          </p>
       </td>
    </tr>

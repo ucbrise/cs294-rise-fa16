@@ -43,15 +43,17 @@ In addition, students will be required to present several papers throughout the 
 The course website for this class is being hosted on GitHub pages.
 If you see any errors or omissions or would like to contribute content or suggested reading to any of the discussion topics please consider emailing us or sending a pull request to this [GitHub repository](https://github.com/ucbrise/cs294-rise-fa16/tree/gh-pages).
 
-<!-- ### Grading Policy
+### Grading Policy
 
 ||:-:  | | ---  ||
-|| **40%** | | Class Participation -- answer questions, join discussion, and present papers ||
+|| **40%** | | Class Participation -- answer questions, join discussion, and present papers  ||
 || **10%** | | Initial Project Proposal Presentation ||
-|| **20%** | | Project Midterm Progress Report ||
-|| **10%** | | Final Project Presentation ||
-|| **20%** | | Final Project Report ||
- -->
+|| **10%** | | Project Midterm Progress Report ||
+|| **15%** | | Final Project Presentations (including Midterm Progress)  ||
+|| **25%** | | Final Project Report   ||
+ 
+
+
 
 
 
