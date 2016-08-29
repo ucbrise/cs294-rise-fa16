@@ -46,11 +46,11 @@ If you see any errors or omissions or would like to contribute content or sugges
 ### Grading Policy
 
 ||:-:  | | ---  ||
-|| **40%** | | Class Participation -- answer questions, join discussion, and present papers  ||
+|| **50%** | | Class Participation -- answer questions, join discussion, and present papers  ||
 || **10%** | | Initial Project Proposal Presentation ||
-|| **25%** | | Project Presentations   ||
-|| **25%** | | Final Project Report   ||
- 
+|| **20%** | | Project Presentations   ||
+|| **20%** | | Final Project Report   ||
+
 
 
 
