@@ -5,8 +5,11 @@ description: "Deep Learning (Joey)"
 use_math: true
 ---
 
-![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
+This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on developments in deep learning related to model compression, time-series modeling, as well as serving deep models.
 
+Content to be added soon!
+
+<!--
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
 In this lecture we will explore the bigger machine learning life-cycle and discuss the challenges around serving predictions.
 
@@ -26,7 +29,7 @@ In this lecture we will explore the bigger machine learning life-cycle and discu
 
 1. What differentiates serving machine learning models from standard data serving?
 
-1. Name one way in which algorithmic advances simplify model serving and one way in which they add additional challenges.
+1. Name one way in which algorithmic advances simplify model serving and one way in which they add additional challenges. -->
 
 
 

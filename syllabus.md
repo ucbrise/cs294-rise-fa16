@@ -152,7 +152,7 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Short summary
+            This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on  developments in deep learning related to model compression, time-series modeling, as well as serving deep models.
          </p>
       </td>
    </tr>
@@ -162,7 +162,7 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/crypto_systems.html">
-               Building Systems with Cryptography
+               Building Systems with Cryptography (Raluca)
             </a>
          </h4>
          <p>
