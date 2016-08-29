@@ -49,10 +49,9 @@ If you see any errors or omissions or would like to contribute content or sugges
 || **40%** | | Class Participation -- answer questions, join discussion, and present papers  ||
 || **10%** | | Initial Project Proposal Presentation ||
 || **10%** | | Project Midterm Progress Report ||
-|| **15%** | | Final Project Presentations (including Midterm Progress)  ||
+|| **15%** | | Final Project Presentations   ||
 || **25%** | | Final Project Report   ||
  
-
 
 
 

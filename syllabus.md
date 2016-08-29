@@ -54,7 +54,7 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Computer scienctists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
+            Computer scientists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
          </p>
       </td>
    </tr>
@@ -153,7 +153,7 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Short summary
+            This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on  developments in deep learning related to model compression, time-series modeling, as well as serving deep models.
          </p>
       </td>
    </tr>
@@ -163,7 +163,7 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/crypto_systems.html">
-               Building Systems with Cryptography
+               Building Systems with Cryptography (Raluca)
             </a>
          </h4>
          <p>
@@ -251,8 +251,8 @@ var finished =  false;
 for (var i = 1; i < rows.length && !finished; i++) {
    var r = rows[i];
    var date_text = r.getElementsByTagName("td")[0].textContent;
-   var d = new Date(date_text);
-   if (current_date < d) {
+   var d = new Date(date_text + " 23:59:59");
+   if (current_date <= d) {
       finished = true;
       var children = r.childNodes
       children[1].style.background = "red"

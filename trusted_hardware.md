@@ -5,6 +5,9 @@ description: "Trusted Hardware (Raluca)"
 use_math: true
 ---
 
+Content to be added soon!
+
+<!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
@@ -27,7 +30,7 @@ In this lecture we will explore the bigger machine learning life-cycle and discu
 1. What differentiates serving machine learning models from standard data serving?
 
 1. Name one way in which algorithmic advances simplify model serving and one way in which they add additional challenges.
-
+ -->
 
 
 <!--
