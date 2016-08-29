@@ -191,11 +191,11 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/bandits_and_rl.html">
-               Bandits and Reinforcement Learning (Joey)
+               Dealing with Feedback(Joey)
             </a>
          </h4>
          <p>
-            Short summary
+            This lecture will provide an overview of recent developments in bandit and reinforcement learning techniques.
          </p>
       </td>
    </tr>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Bandits and RL"
-description: "Bandits and RL (Joey)"
+title: "Dealing with Feedback"
+description: "Dealing with Feedback (Joey)"
 use_math: true
 ---
 
