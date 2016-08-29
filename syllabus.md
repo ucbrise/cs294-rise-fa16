@@ -54,7 +54,7 @@ This is a table containing items covered in the class.
             </a>
          </h4>
          <p>
-            Computer scienctists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
+            Computer scientists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
          </p>
       </td>
    </tr>
