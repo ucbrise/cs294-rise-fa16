@@ -86,7 +86,7 @@ To realize this grand promise we need to develop new open source software tools,
 <!-- By ensuring privacy and security without compromising functionality, we will enable new applications. Today, new applications are increasingly incubated in public clouds to take advantage of elasticity and cost effectiveness. Unfortunately this exposes these sensitive applications to security risks and limitations: cloud-wide security leaks, malicious employees of cloud infrastructure, and regulatory restrictions on public cloud usage.  As the value of these applications increases, providing strong security becomes a necessity. Furthermore, strong privacy will increase the value delivered by these applications, as it will incentivize more users to use them. -->
 
 
-While there exist a few solutions that make real-time decisions on live data, notably in the domains of high-frequency trading and ad bidding, these solutions are highly specialized (on-off), and have taken years and huge resources to develop.
+While there exist a few solutions that make real-time decisions on live data, notably in the domains of high-frequency trading and ad bidding, these solutions are highly specialized (one-off), and have taken years and huge resources to develop.
 The goal of the RISE Lab is to dramatically lower the barrier of building such solutions by developing a general-purpose secure real-time decision stack (SRDS).
 SRDS will enable many more people to build sophisticated decision and predictive analytics applications which will fundamentally change the way we interact with our world, and unlock massive value from the ever increasing amount of data collected by individuals and organizations alike.
 
