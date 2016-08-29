@@ -191,7 +191,7 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/bandits_and_rl.html">
-               Dealing with Feedback(Joey)
+               Dealing with Feedback (Joey)
             </a>
          </h4>
          <p>

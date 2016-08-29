@@ -52,8 +52,10 @@ If you see any errors or omissions or would like to contribute content or sugges
 || **20%** | | Final Project Report   ||
 
 
+#### Discussion
+We will also be using Piazza to manage discussion about the class and projects:
 
-
+* <a href="https://piazza.com/berkeley/fall2016/cs29420/home"> https://piazza.com/berkeley/fall2016/cs29420/home </a>
 
 ## The RISE Research Vision
 
