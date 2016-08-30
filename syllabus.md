@@ -32,6 +32,10 @@ This is a table containing items covered in the class.
          <h4> Course Overview (Ion, Raluca, Joe, and Joey) </h4>
          <p> In the first class we will outline the focus of the RISE Lab course, identify some of the key questions we will explore, and review some of the key solutions today. </p>
 
+         <ul>
+         <li> Machine Learning in RISE [<a href="{{ site.baseurl }}/assets/slides/rise_ml.pptx">pptx</a>, <a href="{{ site.baseurl }}/assets/slides/rise_ml.pdf">pdf</a>]</li>
+         </ul>
+
          <h4> Hardware and System Trends (Ion) </h4>
          <p> Short Summary </p>
       </td>
