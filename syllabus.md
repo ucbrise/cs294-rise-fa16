@@ -33,6 +33,7 @@ This is a table containing items covered in the class.
          <p> In the first class we will outline the focus of the RISE Lab course, identify some of the key questions we will explore, and review some of the key solutions today. </p>
 
          <ul>
+         <li> Overview [<a href="{{ site.baseurl }}/assets/slides/rise_overview.pptx">pptx</a>, <a href="{{ site.baseurl }}/assets/slides/rise_overview.pdf">pdf</a>]</li>
          <li> Machine Learning in RISE [<a href="{{ site.baseurl }}/assets/slides/rise_ml.pptx">pptx</a>, <a href="{{ site.baseurl }}/assets/slides/rise_ml.pdf">pdf</a>]</li>
          </ul>
 
