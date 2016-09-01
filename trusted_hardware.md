@@ -5,7 +5,7 @@ description: "Trusted Hardware (Raluca)"
 use_math: true
 ---
 
-Content to be added soon!
+This lecture covers an overview of Intel SGX, hardware extensions for security, the mechanism of remote attestation, and how it can be used for cloud security. 
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}

@@ -5,7 +5,7 @@ description: "Trusted Hardware 2 (Raluca)"
 use_math: true
 ---
 
-Content to be added soon!
+In this lecture, we discuss how we can use SGX to secure distributed systems such as MapReduce: the cloud performs the MapReduce computations without seeing the data or being able to tamper with the computation. Then, we will discuss various types of leakage in SGX and approaches (such as ORAM and GhostRider) to address these issues.
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
