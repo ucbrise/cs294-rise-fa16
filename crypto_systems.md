@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Crypto Systems"
-description: "Crypto Systems (Raluca)"
+title: "Securing distributed systems with SGX"
+description: "Securing distributed systems with SGX (Raluca)"
 use_math: true
 ---
 

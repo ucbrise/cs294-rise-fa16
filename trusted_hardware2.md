@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Trusted Hardware 2"
-description: "Trusted Hardware 2 (Raluca)"
+title: "Leakage channels in SGX and solutions"
+description: "Leakage channels in SGX and solutions (Raluca)"
 use_math: true
 ---
 
