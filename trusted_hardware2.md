@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Leakage channels in SGX and solutions"
-description: "Leakage channels in SGX and solutions (Raluca)"
+title: "Vulnerabilities of trusted hardware and solutions"
+description: "Vulnerabilities of trusted hardware and solutions (Raluca)"
 use_math: true
 ---
 

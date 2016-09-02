@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Securing distributed systems with SGX"
-description: "Securing distributed systems with SGX (Raluca)"
+title: "Securing distributed systems"
+description: "Securing distributed systems (Raluca)"
 use_math: true
 ---
 
