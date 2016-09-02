@@ -5,7 +5,7 @@ description: "Crypto Systems (Raluca)"
 use_math: true
 ---
 
-Content to be added soon!
+In this lecture, we are looking at a leakage that occurs in a distributed setting, and how we can build systems that are not susceptible to this leakage.
 
 <!-- ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 
