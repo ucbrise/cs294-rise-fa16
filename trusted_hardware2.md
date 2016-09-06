@@ -7,6 +7,28 @@ use_math: true
 
 In this lecture, we discuss how we can use SGX to secure distributed systems such as MapReduce (as in the VC3 system): the cloud performs the MapReduce computations without seeing the data or being able to tamper with the computation. Then, we will discuss various types of leakage in SGX and approaches (such as ORAM and GhostRider) to address these issues.
 
+
+### Reading list:
+
+
+<a href="https://www.microsoft.com/en-us/research/publication/vc3-trustworthy-data-analytics-in-the-cloud/">VC3: Trustworthy data analystics in the cloud</a>, Schuster et al
+
+<a href="https://www.cs.utexas.edu/~yxu/files/xu15oakland.pdf">Controlled-channel attacks: deterministic side channels for Untrusted Operating Systems</a>, Xu et al
+
+
+<a href="http://www.cs.umd.edu/~mwh/papers/ghostrider15.pdf">GhostRider: A Hardware-Software System for Memory Trace Oblivious Computation,
+</a> Liu et al
+
+
+### Optional reading:
+
+<a href="https://www.youtube.com/watch?v=mPT_vJrlHlg">Path ORAM: An Extremely Simple Oblivious RAM Protocol</a>, Stefanov et al
+
+
+### Questions:
+
+TBA
+
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 

@@ -7,7 +7,7 @@ use_math: true
 
 This lecture covers an overview of Intel SGX, hardware extensions for security, the mechanism of remote attestation, and how it can be used for cloud security. 
 
-## Reading list:
+### Reading list:
 
 
 
@@ -27,6 +27,10 @@ Haven,  </a> Baumann et al
 <a href="https://www.youtube.com/watch?v=mPT_vJrlHlg">Presentation by one of the SGX creators</a>, Frank Mckeen
 
 <a href="https://eprint.iacr.org/2016/086.pdf">Intel SGX explaned</a>, Costan and Devadas. This report covers at length Intel SGX as well as computer architecture and security knowledge needed to understand it. Sections 1.1 and 5 are particularly relevant.
+
+### Questions:
+
+TBA
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}

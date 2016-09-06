@@ -7,6 +7,27 @@ use_math: true
 
 In this lecture, we are looking at a leakage that occurs in a distributed setting, and how we can build systems that are not susceptible to this leakage. We then discuss two systems, one for performing data analytics and one for performing machine learning, both on data the service provider cannot see.
 
+
+### Reading list:
+
+
+<a href="http://dl.acm.org/citation.cfm?id=2813695">Observing and Preventing Leakage in MapReduce</a>, Ohrimenko et al AND 
+Opaque: A Data Analytics Platform with Strong Security, Zheng et al [Wenting and Ankur]
+
+
+<a href="http://www.cs.umd.edu/~mwh/papers/ghostrider15.pdf">GhostRider: A Hardware-Software System for Memory Trace Oblivious Computation,
+</a> Liu et al
+
+
+<a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_ohrimenko.pdf">
+Oblivious Multi-Party Machine Learning on Trusted Processors
+</a>, Ohrimenko et al
+
+### Questions:
+
+TBA
+
+
 <!-- ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
