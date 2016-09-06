@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Securing distributed computation and leakages"
-description: "Securing distributed computation and leakages (Raluca)"
+title: "Securing distributed computation and leakage vectors"
+description: "Securing distributed computation and leakage vectors (Raluca)"
 use_math: true
 ---
 
-In this lecture, we discuss how we can use SGX to secure distributed systems such as MapReduce: the cloud performs the MapReduce computations without seeing the data or being able to tamper with the computation. Then, we will discuss various types of leakage in SGX and approaches (such as ORAM and GhostRider) to address these issues.
+In this lecture, we discuss how we can use SGX to secure distributed systems such as MapReduce (as in the VC3 system): the cloud performs the MapReduce computations without seeing the data or being able to tamper with the computation. Then, we will discuss various types of leakage in SGX and approaches (such as ORAM and GhostRider) to address these issues.
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}

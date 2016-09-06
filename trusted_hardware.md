@@ -1,11 +1,30 @@
 ---
 layout: page
-title: "Trusted Hardware"
-description: "Trusted Hardware (Raluca)"
+title: "Trusted Hardware and Cloud Security"
+description: "Trusted Hardware and Cloud Security (Raluca)"
 use_math: true
 ---
 
 This lecture covers an overview of Intel SGX, hardware extensions for security, the mechanism of remote attestation, and how it can be used for cloud security. 
+
+## Reading list:
+
+###  <a href="https://software.intel.com/sites/default/files/article/413936/hasp-2013-innovative-instructions-and-software-model-for-isolated-execution.pdf
+">Intel SGX</a>, McKeen et al
+
+
+### <a href="https://software.intel.com/sites/default/files/managed/ac/40/2016%20WW10%20sgx%20provisioning%20and%20attesatation%20final.pdf
+"> Remote attestation</a>, Johnson et al
+
+
+### <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-baumann.pdf">
+Haven,  </a> Baumann et al
+
+### Optional reading:
+
+<a href="https://www.youtube.com/watch?v=mPT_vJrlHlg">Presentation by one of the SGX creators</a>, Frank Mckeen
+
+<a href="https://eprint.iacr.org/2016/086.pdf">Intel SGX explaned</a>, Costan and Devadas. This report covers at length Intel SGX as well as computer architecture and security knowledge needed to understand it. Sections 1.1 and 5 are particularly relevant.
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}

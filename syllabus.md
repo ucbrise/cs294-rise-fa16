@@ -68,7 +68,7 @@ This is a table containing items covered in the class.
       <td>
          <h4>
             <a href="{{ site.baseurl }}/trusted_hardware.html">
-            Systems Security via Trusted Hardware (Raluca)
+            Trusted Hardware and Cloud Security (Raluca)
             </a>
          </h4>
          <p>
@@ -139,11 +139,11 @@ This is a table containing items covered in the class.
       <td> <!-- (Joe is Absent) -->
          <h4>
             <a href="{{ site.baseurl }}/trusted_hardware2.html">
-               Trusted Hardware Part 2 (Raluca)
+               Securing Distributed Computation and Leakage Vectors (Raluca)
             </a>
          </h4>
          <p>
-            Short summary
+            We discuss how we to use SGX to secure distributed systems such as MapReduce (the VC3 system): the cloud performs the MapReduce computations without seeing the data or being able to tamper with the computation. Then, we will discuss various types of leakage in SGX and approaches (such as ORAM and GhostRider) to address these issues.
          </p>
       </td>
    </tr>
@@ -167,11 +167,11 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/crypto_systems.html">
-               Building Systems with Cryptography (Raluca)
+               Encrypted data analytics and learning (Raluca)
             </a>
          </h4>
          <p>
-            Short summary
+            In this lecture, we are looking at a leakage that occurs in a distributed setting, and how we can build systems that are not susceptible to this leakage. We then discuss two systems, one for performing data analytics and one for performing machine learning, both on sensitive data the service provider cannot see.
          </p>
       </td>
    </tr>
