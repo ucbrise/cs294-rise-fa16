@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Securing distributed systems"
-description: "Securing distributed systems (Raluca)"
+title: "Encrypted data analytics and learning"
+description: "Encrypted data analytics and learning (Raluca)"
 use_math: true
 ---
 
-In this lecture, we are looking at a leakage that occurs in a distributed setting, and how we can build systems that are not susceptible to this leakage.
+In this lecture, we are looking at a leakage that occurs in a distributed setting, and how we can build systems that are not susceptible to this leakage. We then discuss two systems, one for performing data analytics and one for performing machine learning, both on data the service provider cannot see.
 
 <!-- ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 

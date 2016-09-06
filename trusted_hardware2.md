@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Vulnerabilities of trusted hardware and solutions"
-description: "Vulnerabilities of trusted hardware and solutions (Raluca)"
+title: "Securing distributed computation and leakages"
+description: "Securing distributed computation and leakages (Raluca)"
 use_math: true
 ---
 
