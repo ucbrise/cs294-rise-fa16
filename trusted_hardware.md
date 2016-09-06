@@ -24,13 +24,28 @@ Haven,  </a> Baumann et al
 
 ### Optional reading:
 
+If some things are unclear from the readings above, these references should help:
+
 <a href="https://www.youtube.com/watch?v=mPT_vJrlHlg">Presentation by one of the SGX creators</a>, Frank Mckeen
 
-<a href="https://eprint.iacr.org/2016/086.pdf">Intel SGX explaned</a>, Costan and Devadas. This report covers at length Intel SGX as well as computer architecture and security knowledge needed to understand it. Sections 1.1 and 5 are particularly relevant.
+<a href="https://eprint.iacr.org/2016/086.pdf">Intel SGX explained</a>, Costan and Devadas. This report covers at length Intel SGX as well as computer architecture, security, and cryptography knowledge needed to understand it. Sections 1.1 and 5 are particularly relevant.
+
 
 ### Questions:
 
-TBA
+1. During the execution of a program, each enclave page is encrypted and authenticated. What prevents the operating system from swapping a page with an older version of this page from the same execution? Both the current and the old version have been authenticated at some point in time.
+
+2. Summarize the basic steps in a remote attestation process. 
+
+3. Consider that three different parties, A, B, C, each have an input iA, iB, iC and want to compute a publicly-known function f(iA, iB, iC) such that they all learn the result, but none of them learns anything more than the result (and their own input). What are the high level steps one can take to use SGX for this purpose? 
+
+4. Why does Haven go through the overhead and complexity of using Library OS + Drawbridge instead of simply issuing system calls?
+
+4. Can a bug in the database or LibOS exfiltrate unencrypted data in Haven? 
+
+5. In Haven, can the operating system swap a page with an older page across machine shutdown? Explain.
+
+
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
