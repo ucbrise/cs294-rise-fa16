@@ -9,8 +9,12 @@ This lecture covers an overview of Intel SGX, hardware extensions for security, 
 
 ## Reading list:
 
-###  <a href="https://software.intel.com/sites/default/files/article/413936/hasp-2013-innovative-instructions-and-software-model-for-isolated-execution.pdf
-">Intel SGX</a>, McKeen et al
+### Google Goods [?Student Presenters?]
+1. *Halevy, Korn, Noy, et al.*  [**Goods: Organizing Google’s Datasets.**](http://sure) In SIGMOD 2016.
+
+
+###  McKeen et al, [**Intel SGX**](https://software.intel.com/sites/default/files/article/413936/hasp-2013-innovative-instructions-and-software-model-for-isolated-execution.pdf)
+
 
 
 ### <a href="https://software.intel.com/sites/default/files/managed/ac/40/2016%20WW10%20sgx%20provisioning%20and%20attesatation%20final.pdf
