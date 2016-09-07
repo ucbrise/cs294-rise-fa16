@@ -2,10 +2,9 @@
 layout: page
 title: "Data-Centric Programming"
 description: "Data-Centric Programming: Rendezvous, Bloom and CALM (Joe)"
-use_math: true
 ---
 
-Computer scienctists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
+Computer scientists have figured out how to build scalable distributed systems for analyzing data in parallel. But we haven't really cracked the general-purpose distributed programming problem. Could we translate our success with distributed data analytics back to solve the "hard parts" of distributed programming? Today we'll dig deep into that question.
 
 To start, we'll observe that many aspects of computing systems depend on "rendezvous": bringing things together in the right place at the right time. This idea plays out in topics from messaging to code execution to interrupt handling to directory services and join processing. We'll break this down to the basics, and build up from there to a data-centric view of computing that revolves around asynchronous processing of event streams and state tables. We'll explore the advantages of "everything is data" for system-building by going deep into a line of exploratory systems and languages we've built at Berkeley.
 
@@ -25,13 +24,13 @@ Having turned our notion of programming on its head, some familiar mechanisms se
 
 ### Questions:
 
-1. Explain how buffers enable rendezvous in time, in the case of both assymmetric and symmetric rendezvous.
+1. Explain how buffers enable rendezvous in time, in the case of both asymmetric and symmetric rendezvous.
 
 1. List as many advantages as you can for the strategy of representing all system state as first-class data in tables. Disadvantages?
 
-1. Why are Mapreduce and Spark "easy" to parallelize? To make fault tolerant?
+1. Why are MapReduce and Spark "easy" to parallelize? To make fault tolerant?
 
-1. How do Overlog and Bloom differ from Mapreduce and Spark?
+1. How do Overlog and Bloom differ from MapReduce and Spark?
 
 1. Finding the exact count of items in a set requires coordination (blocking). Testing whether the count of items in a set is above some threshold does not require coordination. Why? How can lattices and monotone functions make this explicit and testable in a program?
 
