@@ -11,8 +11,10 @@ In this lecture, we are looking at a leakage that occurs in a distributed settin
 ### Reading list:
 
 
-<a href="http://dl.acm.org/citation.cfm?id=2813695">Observing and Preventing Leakage in MapReduce,</a> Ohrimenko et al <b> AND </b> <br>
-Opaque: A Data Analytics Platform with Strong Security, Zheng et al [Presenters: Wenting and Ankur]
+<a href="http://dl.acm.org/citation.cfm?id=2813695">Observing and Preventing Leakage in MapReduce,</a> Ohrimenko et al 
+
+
+Opaque: A Data Analytics Platform with Strong Security, Zheng et al 
 
 
 <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_ohrimenko.pdf">
