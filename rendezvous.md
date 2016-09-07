@@ -16,7 +16,7 @@ Having turned our notion of programming on its head, some familiar mechanisms se
 1. *P Alvaro, T Condie, N Conway, et al.* 2010. [**BOOM Analytics: Exploring data-centric, declarative programming for the cloud.**](http://db.cs.berkeley.edu/papers/eurosys10-boom.pdf) In Eurosys 2010.
 
 ### Bloom and the CALM Theorem
-1. *P Alvaro, N Conway, JM Hellerstein, WR Marczak* 2012. [**Consistency Analysis in Bloom: a CALM and Collected Approach.**](http://dl.acm.org/citation.cfm?id=2648589) In CIDR 2012.
+1. *P Alvaro, N Conway, JM Hellerstein, WR Marczak* 2012. [**Consistency Analysis in Bloom: a CALM and Collected Approach.**](http://db.cs.berkeley.edu/papers/cidr11-bloom.pdf) In CIDR 2012.
 
 ### Logic and Lattices
 1. *N Conway, WR Marczak, P Alvaro, et al.* SoCC 2012. [**Logic and lattices for distributed programming**](http://db.cs.berkeley.edu/papers/socc12-blooml.pdf). In SOCC 2012.
