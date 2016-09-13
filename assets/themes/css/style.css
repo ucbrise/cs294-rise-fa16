@@ -23,42 +23,47 @@ h1, h2, h3, h4 {
 
 .navbar-default .navbar-nav > li > a {
   background-color: #043361;
-  color: #feb834;    
+  color: #feb834;
 }
 
 .navbar-default .navbar-brand {
   background-color: #043361;
-  color: #feb834;   
+  color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   background-color: #feb834;
-  color: #043361;   
+  color: #043361;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: #feb834;
-  color: #043361;   
+  color: #043361;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   background-color: #043361;
-  color: #feb834;    
+  color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-brand {
   background-color: #043361;
-  color: #feb834;  
+  color: #feb834;
+  text-shadow: none;
 }
 
 .navbar-header {
   background-color: #043361;
-  color: #feb834;  
+  color: #feb834;
+  text-shadow: none;
 }
 
 .navbar .nav  a {
   background-color: #043361;
   color: #feb834;
+  text-shadow: none;
 }
 
 
