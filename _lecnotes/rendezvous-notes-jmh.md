@@ -1,6 +1,15 @@
+<!-- uncomment to render in separate pages.
+---
+layout: page
+title: "Notes Data-Centric Programming"
+description: "Data-Centric Programming: Rendezvous, Bloom and CALM (Joe)"
+---
+-->
+
+
 # Disorderly Programming: Rendezvous, Bloom and CALM
 
-We expect you to read, understand, and remember the papers before class. I will not summarize the papers in detail; we will aim higher today. 
+We expect you to read, understand, and remember the papers before class. I will not summarize the papers in detail; we will aim higher today.
 
 Today is atypical of the seminar.  My own idiosyncratic views on data, events, asynchrony, programming, distributed computation ... hopefully good foundation for a chunk of RISE lab systems activity and beyond.
 
@@ -57,7 +66,7 @@ Once there were two bands of people who lived far apart: the Westers and the Eas
 
 - Language Expressivity: Rendezvous--specifically, logic languages based on relational join--can be shown to have signficant expressive power. A simple language of recursive selection, projection and join over sets and sequences (Semipositive Datalog a.k.a Fixed Points on First Order Logic) *covers all of PTIME* (the [Immerman](https://scholar.google.com/scholar?cluster=1660603149772070343)-[Vardi](https://classes.soe.ucsc.edu/cmps277/Fall08/Papers/vardi-stoc82.pdf) Therem) -- and can be implemented asynchronously via the Paired Watchtower metaphor (see discussion of Bloom below.)
 
-- System Architecture: 
+- System Architecture:
 
 ## Declarative Networking, Overlog and P2
 - Skip this in class ... not enough time.
@@ -85,14 +94,15 @@ Once there were two bands of people who lived far apart: the Westers and the Eas
 ## BOOM Analytics
 - Idea: recast distributed programming in a data-parallel programming model
 - *Data-centric* system design
-- *Declarative* programming. 
+- *Declarative* programming.
 	- Managing rendezvous and persistence for the system state!
 If you take one thing away from today's lecture, this may be it.
 
 
 ### Overlog/Bloom: Basics
-- Datalog heads and bodies: the all-paths example from BOOM Analytics, in Bloom. (You'll find no good documentation of Overlog online, but there's a fairly reasonable set of [docs for Bud], the 
+- Datalog heads and bodies: the all-paths example from BOOM Analytics, in Bloom. (You'll find no good documentation of Overlog online, but there's a fairly reasonable set of [docs for Bud], the
 Ruby interpreter for Bloom.)
+
 ```ruby
 table :links, [:from, :to] => [:cost]
 scratch :paths, [:from, :to, :via] => [:cost]
@@ -101,7 +111,9 @@ scratch :paths, [:from, :to, :via] => [:cost]
 paths <= links{ |l| [l.from, l.to, l.to, l.cost] }
 paths <= (links*paths).pairs(:to=>:from) { |l, p| [l.from, p.to, p.from, l.cost + p.cost] }
 ```
+
 and the distributed version from the paper:
+
 ```ruby
 table :links, [:from, :to] => [:cost]
 scratch :paths, [:from, :to, :via] => [:cost]
@@ -112,8 +124,9 @@ pathcomm <~ links{ |l| [l.from, l.to, l.to, l.cost] }
 pathcomm <~ (links*paths).pairs(:to=>:from) { |l, p| [l.from, p.to, p.from, l.cost + p.cost] }
 paths <= pathcomm
 ```
+
 - Note how distribution is specified in Bloom -- declarative "placement", i.e. "send"
-	- In Overlog this is implicit, via a location specifier on a globally-sharded table 
+	- In Overlog this is implicit, via a location specifier on a globally-sharded table
 - Bloom assumptions minimalist!
 	- Messaging via unreliable, unordered channels
 	- State only visible locally
@@ -140,6 +153,7 @@ paths <= pathcomm
 #### Heartbeat Protocol
 - Illustrates the use of Periodics
 	- Logical tables with tuples that "appear" on a schedule.  Again, in Bloom:
+
 ```ruby
 # Send all messages in the message queue every 100 msec
 periodic :timer, 0.1
@@ -169,7 +183,9 @@ separate from their specification*
 	- Premonitions of CALM: the desire (?) for distributed coordination
 
 ### Systems Validation
+
 #### Availability
+
 - Goal: "hot standby": *consistently* replicated NameNode state
 - Paxos implementation in Overlog
 	- "Ledgers" (tables), "Decrees" (messages in streams) and "invariants" (logic rules)
@@ -189,7 +205,7 @@ separate from their specification*
 	    - But it doesn't "feel declarative", at the high level
 	    - Is this good or bad?
 	    - What does "declarative" mean?
-	    	- E.g., what if my declaration for task T has to be: "produce a trace of the execution of algorithm X for task T"? 
+	    	- E.g., what if my declaration for task T has to be: "produce a trace of the execution of algorithm X for task T"?
 
 #### Scalability
 - Almost trivial win of data-centric approach: "Shard" your state tables! (by hash(fqname))
@@ -237,10 +253,12 @@ and mission-critical software like distributed services.
 
 
 ## CALM & Bloom
+
 ### What's hard in distributed programming?
-	1. Message reordering ("temporal non-determinism")
-	2. Partial failure
-	3. Performance variation (relates to (1))
+
+1. Message reordering ("temporal non-determinism")
+2. Partial failure
+3. Performance variation (relates to (1))
 - 2nd and 3rd issues traditionally solved via replication
 	- but that only makes the 1st harder!
 - Let's focus on the first issue.  What can we do to help?
@@ -261,7 +279,7 @@ and mission-critical software like distributed services.
 - Well, as a point of reference, let's look at "embarrassingly" easy distributed programming!
 	- Queries and Functional pipelines like MapReduce
 	- Why easy?
-		- Much of is is order-insensitive! 
+		- Much of is is order-insensitive!
 		- Known results about monotonicity from the stream/distributed query literature.
 			- Join queries!
 			    - Including the recursive queries we used for path finding!
@@ -304,10 +322,10 @@ and mission-critical software like distributed services.
 	- Hard to be as general-purpose as read/write (or is it??)
 
 - Back to data-centric declarative programming!
-	- State: 
+	- State:
 		- "tables" -- i.e. relations or HashMaps, etc.: *unordered* collections, with unordered operations
 		- "streams" -- *unordered* semantics inevitable: every streaming system that assumes order eventually has to support "late arrivals" etc. "Windows" need to be "closed", though. We'll come back to that!
-	- Declarative languages: 
+	- Declarative languages:
 		- mappings from unordered collections to unordered collections. Sounds kinda commutative/order-insensitive, no?
 		- dataflows are immutable. Again sounds kinda order-insensitive, right?
 
@@ -317,7 +335,7 @@ and mission-critical software like distributed services.
 	- Time as a first-class form of data, with syntactic sugar: Now, Next, Async
 		- Based on a logic called [Dedalus](https://scholar.google.com/scholar?cluster=4658639044512647014)
 
-- So... when are we order-sensitive, when insensitive?  
+- So... when are we order-sensitive, when insensitive?
 
 ## CALM: Consistency As Logical Monotonicity
 - Bi-directional theorem (formalized later in a [series](https://scholar.google.com/scholar?cluster=17698312205502058807) [of](https://scholar.google.com/scholar?cluster=8124818622578912111) [papers](https://scholar.google.com/scholar?cluster=5352420254036649723) by Ameloot et al.)
@@ -342,7 +360,7 @@ Intuition from relational algebra:
 virtue of the semantics of MIN and <: once a subset S satisfies this
 test, any superset of S will also satisfy it. Many refinements along
 these lines exist, increasing the ability of program analyses to verify
-monotonicity.*			
+monotonicity.*
 
 ## Bloom + Lattices
 - A simpler, more ancient take on order insensitivity:
@@ -352,7 +370,7 @@ monotonicity.*
 		- CRDTs
 		- ACID 2.0 and CRDTs: Join semilattices
 	- Much easier said than done.
-		- Some of the CRDT work degenerates into "my entire program is a CRDT". 
+		- Some of the CRDT work degenerates into "my entire program is a CRDT".
 			- If you say so. Basically punts on the problem entirely.
 - Meanwhile...
 	- Many of the distributed protocols were a pain in Bloom 1.0 due to the lack of monotonicity "beyond sets"

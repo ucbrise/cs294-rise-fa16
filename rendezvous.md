@@ -10,6 +10,8 @@ To start, we'll observe that many aspects of computing systems depend on "rendez
 
 Having turned our notion of programming on its head, some familiar mechanisms seem to become a bit odd. In a world of event stream processing, what is the role of coordination mechanisms like barriers, locks and consensus. *How* do we use them in our programs? *When* should we use them in our programs? What were they doing for us in our traditional languages anyhow? Can we avoid them? The CALM Theorem shows that these questions hinge on the notion of Monotonicity---a key that unlocks robustness and scalability for distributed systems. We'll talk about surface and intrinsic notions of monotonicity, and how we can expose them to programmers.
 
+
+
 ## Reading lists:
 
 ### Data-Centric Distributed Systems
@@ -20,6 +22,12 @@ Having turned our notion of programming on its head, some familiar mechanisms se
 
 ### Logic and Lattices
 1. *N Conway, WR Marczak, P Alvaro, et al.* SoCC 2012. [**Logic and lattices for distributed programming**](http://db.cs.berkeley.edu/papers/socc12-blooml.pdf). In SOCC 2012.
+
+---
+
+{% include_relative _lecnotes/rendezvous-notes-jmh.md %}
+
+---
 
 
 ### Questions:
