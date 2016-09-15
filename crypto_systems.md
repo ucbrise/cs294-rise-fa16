@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Encrypted data analytics and learning"
-description: "Encrypted data analytics and learning (Raluca)"
+title: "Encrypted Data Analytics and Learning"
+description: "Encrypted Data Analytics and Learning (Raluca)"
 use_math: true
 ---
 

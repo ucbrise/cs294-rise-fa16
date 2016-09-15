@@ -33,6 +33,9 @@ If some things are unclear from the readings above, these references should help
 
 ### Questions:
 
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSeyOG6l1lyIvIMuT2TwZAwZ_xe8PZ2Y21TVksGrXuo689Cmlw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<!--
 1. During the execution of a program, each enclave page is encrypted and authenticated. What prevents the operating system from swapping a page with an older version of this page from the same execution? Both the current and the old version have been authenticated at some point in time.
 
 2. Summarize the basic steps in a remote attestation process. 
@@ -44,7 +47,7 @@ If some things are unclear from the readings above, these references should help
 4. Can a bug in the database or LibOS exfiltrate unencrypted data in Haven? 
 
 5. In Haven, can the operating system swap a page with an older page across machine shutdown? Explain.
-
+-->
 
 
 <!--
