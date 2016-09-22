@@ -7,7 +7,7 @@ description: "Data-Centric Programming: Rendezvous, Bloom and CALM (Joe)"
 -->
 
 
-# Disorderly Programming: Rendezvous, Bloom and CALM
+# Lecture Notes: _Disorderly Programming: Rendezvous, Bloom and CALM_
 
 We expect you to read, understand, and remember the papers before class. I will not summarize the papers in detail; we will aim higher today.
 
