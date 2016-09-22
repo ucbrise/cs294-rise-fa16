@@ -5,6 +5,8 @@ description: "Cluster Compute"
 use_math: true
 ---
 
+This lecture overviews the main cluster management systems developed primarily over the past decade to efficiently share large clusters across a variety of workloads, including big data, and long running services.
+
 ## Reading lists:
 
 1. [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center](https://www.cs.berkeley.edu/~alig/papers/mesos.pdf)
@@ -17,7 +19,7 @@ use_math: true
 
 ## Questions:
 
-Please fill in this [form](https://goo.gl/forms/iA4sNyuvSs1lJVtx2).
+Fill in this [form](https://goo.gl/forms/iA4sNyuvSs1lJVtx2).
 
 <!---
 <iframe src="https://goo.gl/forms/iA4sNyuvSs1lJVtx2/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
