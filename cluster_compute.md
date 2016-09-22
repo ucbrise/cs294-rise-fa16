@@ -17,4 +17,7 @@ use_math: true
 
 ## Questions:
 
+Fill in this [form](https://goo.gl/forms/iA4sNyuvSs1lJVtx2).
+<!----
 <iframe src="https://goo.gl/forms/iA4sNyuvSs1lJVtx2/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+--->
