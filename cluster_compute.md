@@ -15,10 +15,6 @@ use_math: true
 
 1. [Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) and the [Kubernetes documentation](http://kubernetes.io/docs/)
 
-## Questions coming soon!
+## Questions:
 
-<!-- Remove the comment when the questions are ready
-
-<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLScXrM_eXUMl3x-EFhrs830C1mxBf3_FC74bHpVsDgEZeJBoFg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
--->
+<iframe src="https://goo.gl/forms/iA4sNyuvSs1lJVtx2/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
