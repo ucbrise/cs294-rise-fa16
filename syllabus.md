@@ -83,11 +83,11 @@ This is a table containing items covered in the class.
        <td>
          <h4>
             <a href="{{ site.baseurl }}/cluster_compute.html">
-            Cluster Compute Frameworks (Ion)
+            Cluster Management Systems (Ion)
             </a>
          </h4>
          <p>
-            Short summary
+            In this lecture we will learn about cluster management systems. The role of a cluster management system is to allow different cluster computing frameworks (e.g., Hadoop MR, Spark, Web services) to share the same clusters. Challenges the cluster management systems need to address include performance isolation, the ability to implement various allocation polices, and the ability to scale to thousands of servers and beyond.  
          </p>
          <center><h3>Project Ideas Posted</h3></center>
          <p>
