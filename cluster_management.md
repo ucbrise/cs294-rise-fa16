@@ -1,11 +1,21 @@
 ---
 layout: page
-title: "Cluster Compute"
-description: "Cluster Compute"
+title: "Cluster Management"
+description: "Cluster Management"
 use_math: true
 ---
 
-This lecture overviews the main cluster management systems developed primarily over the past decade to efficiently share large clusters across a variety of workloads, including big data, and long running services.
+This lecture overviews the main cluster management systems developed primarily over the past decade to efficiently share large clusters across a variety of workloads, including big data, and long running assets/slides/borg_presentation.pdf
+
+## Presentations:
+
+1. [Overview of Cluster Management](assets/slides/cluster_management_systems_overview.pdf)
+
+1. [Google Borg System](assets/slides/borg_presentation.pdf)
+
+1. [Mesos Meta Resource Manager](assets/slides/mesos.pdf)
+
+1. [Yet Another Resource Manager (YARN)](assets/slides/Yarn.pdf)
 
 ## Reading lists:
 
