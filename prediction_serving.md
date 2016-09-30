@@ -17,6 +17,9 @@ While much of the focus of machine learning research is on the process of traini
 
 #### Optional Reading
 
+1. *Daniel Crankshaw, Xin Wang, Giulio Zhou, Michael J. Franklin, Joseph E. Gonzalez, Ion Stoica* [**Clipper: A Low-Latency Online Prediction Serving System**](assets/papers/clipper_latest_draft_nsdi.pdf). This paper is still under review.
+
+
 1. *Daniel Crankshaw, Peter Bailis, Joseph E. Gonzalez, Haoyuan Li, Zhao Zhang, Michael J. Franklin, Ali Ghodsi, Michael I. Jordan* [**The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox**](http://arxiv.org/abs/1409.3809). The Conference on Innovative Database Research (CIDR'2015).
 
 
@@ -35,13 +38,9 @@ While much of the focus of machine learning research is on the process of traini
 1. *M. Levent Koc and Christopher Re* 2014. [**Incrementally Maintaining Classification Using an RDBMS**](http://dl.acm.org/citation.cfm?id=1952380) Proc. VLDB Endow. 4, 5 (February 2011).
 
 
-### Tentative Questions (Form coming soon!):
+## Question
 
-1. What are some of the core challenges of serving predictions?
-1. Describe a few techniques used to address the challenges of prediction serving?
-1. What are some of the issues around managing and learning from feedback?
-1. What are the issues around machine learning pipelines.
-
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSc2oIL3H-1WcC10VJDKqK-2wab-U1YEubunNx6x8eVbRDAAkQ/viewform?embedded=true" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 
