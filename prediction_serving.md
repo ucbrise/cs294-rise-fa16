@@ -13,7 +13,7 @@ While much of the focus of machine learning research is on the process of traini
 
 ### Prediction Serving Systems [Daniel Crankshaw]
 
-1. *Deepak Agarwal, Bo Long, Jonathan Traupman, Doris Xin, and Liang Zhang.* 2014. [**LASER: a scalable response prediction platform for online advertising.**](http://dl.acm.org/citation.cfm?id=2556252) In Proceedings of the 7th ACM international conference on Web search and data mining (WSDM '14).
+1. *Deepak Agarwal, Bo Long, Jonathan Traupman, Doris Xin, and Liang Zhang.* 2014. [**LASER: a scalable response prediction platform for online advertising.**](http://dl.acm.org/citation.cfm?id=2556252) In Proceedings of the 7th ACM international conference on Web search and data mining (WSDM '14). [[direct pdf link](http://dl.acm.org/ft_gateway.cfm?id=2556252&ftid=1432320&dwn=1&#URLTOKEN#)]
 
 #### Optional Reading
 
@@ -29,13 +29,13 @@ While much of the focus of machine learning research is on the process of traini
 
 #### Optional Reading
 
-1. *Xinran He, Junfeng Pan, Ou Jin, Tianbing Xu, Bo Liu, Tao Xu, Yanxin Shi, Antoine Atallah, Ralf Herbrich, Stuart Bowers, and Joaquin Quiñonero Candela.* 2014. [**Practical Lessons from Predicting Clicks on Ads at Facebook.**](http://dl.acm.org/citation.cfm?id=2648589) In Proceedings of the Eighth International Workshop on Data Mining for Online Advertising (ADKDD'14).
+1. *Xinran He, Junfeng Pan, Ou Jin, Tianbing Xu, Bo Liu, Tao Xu, Yanxin Shi, Antoine Atallah, Ralf Herbrich, Stuart Bowers, and Joaquin Quiñonero Candela.* 2014. [**Practical Lessons from Predicting Clicks on Ads at Facebook.**](http://dl.acm.org/citation.cfm?id=2648589) In Proceedings of the Eighth International Workshop on Data Mining for Online Advertising (ADKDD'14). [[direct pdf link](https://pdfs.semanticscholar.org/daf9/ed5dc6c6bad5367d7fd8561527da30e9b8dd.pdf)]
 
-1. *H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin, Sharat Chikkerur, Dan Liu, Martin Wattenberg, Arnar Mar Hrafnkelsson, Tom Boulos, and Jeremy Kubica.* [**Ad click prediction: a view from the trenches.**](http://dl.acm.org/citation.cfm?id=2488200) In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '13)
+1. *H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin, Sharat Chikkerur, Dan Liu, Martin Wattenberg, Arnar Mar Hrafnkelsson, Tom Boulos, and Jeremy Kubica.* [**Ad click prediction: a view from the trenches.**](http://dl.acm.org/citation.cfm?id=2488200) In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '13) [[direct pdf link](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)]
 
 ### Prematerialized Predictions [Noah Golmant]
 
-1. *M. Levent Koc and Christopher Re* 2014. [**Incrementally Maintaining Classification Using an RDBMS**](http://dl.acm.org/citation.cfm?id=1952380) Proc. VLDB Endow. 4, 5 (February 2011).
+1. *M. Levent Koc and Christopher Re* 2014. [**Incrementally Maintaining Classification Using an RDBMS**](http://dl.acm.org/citation.cfm?id=1952380) Proc. VLDB Endow. 4, 5 (February 2011).[[direct pdf link](http://www.cs.stanford.edu/people/chrismre/papers/hazy-classification-vldb11.pdf)]
 
 
 ## Question
