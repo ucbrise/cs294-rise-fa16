@@ -25,7 +25,7 @@ While much of the focus of machine learning research is on the process of traini
 
 ### Managing the ML Lifecycle [Giulio Zhou]
 
-1. *D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young* 2014. [**Machine Learning: The High Interest Credit Card of Technical Debt**](http://research.google.com/pubs/pub43146.html). SE4ML: Software Engineering for Machine Learning (NIPS 2014 Workshop)
+1. *D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, Todd Phillips, Dietmar Ebner, Vinay Chaudhary, Michael Young* 2014. [**Machine Learning: The High Interest Credit Card of Technical Debt**](http://research.google.com/pubs/pub43146.html). SE4ML: Software Engineering for Machine Learning (NIPS 2014 Workshop) [[direct pdf link](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)]
 
 #### Optional Reading
 
