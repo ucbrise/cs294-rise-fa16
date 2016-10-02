@@ -5,7 +5,7 @@ description: "Trusted Hardware and Cloud Security (Raluca)"
 use_math: true
 ---
 
-This lecture covers an overview of Intel SGX, hardware extensions for security, the mechanism of remote attestation, and how it can be used for cloud security. 
+This lecture covers an overview of Intel SGX, hardware extensions for security, the mechanism of remote attestation, and how it can be used for cloud security.
 
 ### Reading list:
 
@@ -33,18 +33,21 @@ If some things are unclear from the readings above, these references should help
 
 ### Questions:
 
-<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSeyOG6l1lyIvIMuT2TwZAwZ_xe8PZ2Y21TVksGrXuo689Cmlw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+The question form has been closed.
 
+<!--
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSeyOG6l1lyIvIMuT2TwZAwZ_xe8PZ2Y21TVksGrXuo689Cmlw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+ -->
 <!--
 1. During the execution of a program, each enclave page is encrypted and authenticated. What prevents the operating system from swapping a page with an older version of this page from the same execution? Both the current and the old version have been authenticated at some point in time.
 
-2. Summarize the basic steps in a remote attestation process. 
+2. Summarize the basic steps in a remote attestation process.
 
-3. Consider that three different parties, A, B, C, each have an input iA, iB, iC and want to compute a publicly-known function f(iA, iB, iC) such that they all learn the result, but none of them learns anything more than the result (and their own input). What are the high level steps one can take to use SGX for this purpose? 
+3. Consider that three different parties, A, B, C, each have an input iA, iB, iC and want to compute a publicly-known function f(iA, iB, iC) such that they all learn the result, but none of them learns anything more than the result (and their own input). What are the high level steps one can take to use SGX for this purpose?
 
 4. Why does Haven go through the overhead and complexity of using Library OS + Drawbridge instead of simply issuing system calls?
 
-4. Can a bug in the database or LibOS exfiltrate unencrypted data in Haven? 
+4. Can a bug in the database or LibOS exfiltrate unencrypted data in Haven?
 
 5. In Haven, can the operating system swap a page with an older page across machine shutdown? Explain.
 -->

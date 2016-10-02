@@ -52,8 +52,10 @@ Having turned our notion of programming on its head, some familiar mechanisms se
 
 ## Answer the questions
 
-<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLScZjGkuxikWf0VfTI0iG2D5UhFpFKetVr3Wz2PXkZKgXLDkZA/viewform?embedded=true" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+The questions form has been closed.
 
+<!-- <iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLScZjGkuxikWf0VfTI0iG2D5UhFpFKetVr3Wz2PXkZKgXLDkZA/viewform?embedded=true" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+ -->
 <!--
 
 Formatting with Kramdown (github style markdown):
