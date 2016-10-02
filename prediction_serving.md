@@ -19,9 +19,9 @@ While much of the focus of machine learning research is on the process of traini
 
 1. *Daniel Crankshaw, Xin Wang, Giulio Zhou, Michael J. Franklin, Joseph E. Gonzalez, Ion Stoica* [**Clipper: A Low-Latency Online Prediction Serving System**](assets/papers/clipper_latest_draft_nsdi.pdf). This paper is still under review.
 
-
 1. *Daniel Crankshaw, Peter Bailis, Joseph E. Gonzalez, Haoyuan Li, Zhao Zhang, Michael J. Franklin, Ali Ghodsi, Michael I. Jordan* [**The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox**](http://arxiv.org/abs/1409.3809). The Conference on Innovative Database Research (CIDR'2015).
 
+1. Mert Akdere, Ugur Cetintemel, Matteo Riondato, Eli Upfal, and Stan Zadonic. [**The Case for Predictive Database Systems: Opportunities and Challenges**](http://cidrdb.org/cidr2011/Papers/CIDR11_Paper20.pdf). The Conference on Innovative Database Research (CIDR'2011).
 
 ### Managing the ML Lifecycle [Giulio Zhou]
 
