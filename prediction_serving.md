@@ -41,15 +41,20 @@ While much of the focus of machine learning research is on the process of traini
 
 1. **Cascades for fast predictions:** Paul Viola and Michael Jones [**Rapid Object Detection using a Boosted Cascade of Simple Features**](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) CVPR 2001.
 
-   * This landmark paper introduced a simple but efficient and accurate algorithm for face detection which is still widely used.  I have included this class paper because illustrates the advantages of cascades.
+   * This landmark paper introduced a simple but efficient and accurate algorithm for face detection which is widely used.  I have included this class paper because illustrates the advantages of cascades.
 
    * Viola and Jones inspired later work by David Weiss and Ben Taskar in the design of [**Structured prediction cascades**](http://homes.cs.washington.edu/~taskar/pubs/aistats10cascades.pdf) which address the challenges of graphical model inference.
 
+1. **Speech recognition:** *Xuedong Huang, James Baker, Raj Reddy* [**A Historical Perspective of Speech Recognition**](http://cacm.acm.org/magazines/2014/1/170863-a-historical-perspective-of-speech-recognition/fulltext).  This survey summarizes the development in speech recognition, an actively deployed area of prediction serving.  Unfortunately, while the article does discuss the key developments in speech recognition it only briefly discuss some of the developments in serving speech recognition models.
+
+   * *Baidu Research* [**Deep Speech 2: End-to-End Speech Recognition in English and Mandarin**](https://arxiv.org/abs/1512.02595).  This is a fairly comprehensive description of both the model and systems used by Baidu for their English and Mandarin ASR systems.  To the best of my knowledge this is the most complete public description of a state-of-the-art ASR system.
+
+   * *Anuj Kumar, Anuj Tewari, Seth Horrigan, Matthew Kam, Forian Metze, and John Canny* [**Rethinking Speech Recognition on MObile Devices**](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1122&context=lti).  This paper explores the challenges of speech recognition in the developing world on mobile devices with limited connectivity.
+
+   * Hosted speech service [**Google's Cloud Speech API**](https://cloud.google.com/speech/).  Any papers on this system???
 
 
-
-
-## Question
+## Questions
 
 <iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSc2oIL3H-1WcC10VJDKqK-2wab-U1YEubunNx6x8eVbRDAAkQ/viewform?embedded=true" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
