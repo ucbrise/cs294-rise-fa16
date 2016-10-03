@@ -37,6 +37,10 @@ While much of the focus of machine learning research is on the process of traini
 
 1. *M. Levent Koc and Christopher Re* 2014. [**Incrementally Maintaining Classification Using an RDBMS**](http://dl.acm.org/citation.cfm?id=1952380) Proc. VLDB Endow. 4, 5 (February 2011).[[direct pdf link](http://www.cs.stanford.edu/people/chrismre/papers/hazy-classification-vldb11.pdf)]
 
+#### Optional Reading
+
+1. *Amol Deshpande and Samuel Madden* [**MauveDB: Supporting Model-based User Views in Database Systems**](http://db.csail.mit.edu/pubs/sigmod06-mauvedb.pdf) This earlier work introduces the idea of using views to encapsulate models and their predictions in a coherent interface that is composable with other data systems.
+
 ## Optional Reading on Machine Learning Applications
 
 1. **Cascades for fast predictions:** Paul Viola and Michael Jones [**Rapid Object Detection using a Boosted Cascade of Simple Features**](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) CVPR 2001.
@@ -52,6 +56,18 @@ While much of the focus of machine learning research is on the process of traini
    * *Anuj Kumar, Anuj Tewari, Seth Horrigan, Matthew Kam, Forian Metze, and John Canny* [**Rethinking Speech Recognition on MObile Devices**](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1122&context=lti).  This paper explores the challenges of speech recognition in the developing world on mobile devices with limited connectivity.
 
    * Hosted speech service [**Google's Cloud Speech API**](https://cloud.google.com/speech/).  Any papers on this system???
+
+1. **Hardware for Deep Learning Inference**:
+
+   * [**GPU-Based Deep Learning Inference: A Performance and Power Analysis**](http://www.nvidia.com/content/tegra/embedded-systems/pdf/jetson_tx1_whitepaper.pdf).  This NVidia whitepaper looks at the performance and power implications of running the AlexNet model on various architectures.  A key implication here is the importance of batching as well as the peak achievable throughput of these accelerators.
+
+   * **Google's Tensor Processing Unit (TPU)**:
+
+      * [Google's Tensor Processing Unit explained: this is what the future of computing looks like](http://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-computing-looks-like-1326915)
+
+      * [Google supercharges machine learning tasks with TPU custom chip](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html)
+
+
 
 
 ## Questions
