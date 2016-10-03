@@ -33,7 +33,9 @@ While much of the focus of machine learning research is on the process of traini
 
 1. *H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin, Sharat Chikkerur, Dan Liu, Martin Wattenberg, Arnar Mar Hrafnkelsson, Tom Boulos, and Jeremy Kubica.* [**Ad click prediction: a view from the trenches.**](http://dl.acm.org/citation.cfm?id=2488200) In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD '13) [[direct pdf link](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf)]
 
-### Prematerialized Predictions [Noah Golmant]
+1. *D. Sculley, Matthew Eric Otey, Michael Pohl, Bridget Spitznagel, John Hainsworth, and Yunkai Zhou.* [**Detecting adversarial advertisements in the wild.**](http://dl.acm.org/citation.cfm?id=2020455) KDD'11 [[direct pdf link](https://www.eecs.tufts.edu/~dsculley/papers/adversarial-ads.pdf)]
+
+### Eager Materialization of Predictions [Noah Golmant]
 
 1. *M. Levent Koc and Christopher Re* 2014. [**Incrementally Maintaining Classification Using an RDBMS**](http://dl.acm.org/citation.cfm?id=1952380) Proc. VLDB Endow. 4, 5 (February 2011).[[direct pdf link](http://www.cs.stanford.edu/people/chrismre/papers/hazy-classification-vldb11.pdf)]
 
@@ -43,9 +45,7 @@ While much of the focus of machine learning research is on the process of traini
 
 ## Optional Reading on Machine Learning Applications
 
-1. **Cascades for fast predictions:** Paul Viola and Michael Jones [**Rapid Object Detection using a Boosted Cascade of Simple Features**](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) CVPR 2001.
-
-   * This landmark paper introduced a simple but efficient and accurate algorithm for face detection which is widely used.  I have included this class paper because illustrates the advantages of cascades.
+1. **Cascades for fast predictions:** Paul Viola and Michael Jones [**Rapid Object Detection using a Boosted Cascade of Simple Features**](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) CVPR 2001.  This landmark paper introduced a simple but efficient and accurate algorithm for face detection which is widely used.  I have included this class paper because illustrates the advantages of cascades.
 
    * Viola and Jones inspired later work by David Weiss and Ben Taskar in the design of [**Structured prediction cascades**](http://homes.cs.washington.edu/~taskar/pubs/aistats10cascades.pdf) which address the challenges of graphical model inference.
 
