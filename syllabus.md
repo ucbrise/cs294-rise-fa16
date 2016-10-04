@@ -115,7 +115,7 @@ This is a table containing items covered in the class.
       <td>
          <h4>
             <a href="{{ site.baseurl }}/missing">
-            Missing ! (TBD)
+            Guest Speaker: Moritz Hardt
             </a>
          </h4>
          <p>
@@ -123,7 +123,9 @@ This is a table containing items covered in the class.
          </p>
          <center><h3>
             Project Team Selections
-         </h3></center>
+         </h3>
+         <h4> Please enter your project selections <a href="https://goo.gl/forms/8ztsmJsj6Bp2wuyA2">in this form</a>. </h4>
+         </center>
       </td>
    </tr>
    <tr>
