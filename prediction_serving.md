@@ -9,6 +9,17 @@ use_math: true
 
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.  In this lecture we will explore the bigger machine learning life-cycle and discuss the challenges around serving predictions.
 
+## Slides
+
+* *Overview and Next Directions* presented by Joseph Gonzalez [[pptx](assets/slides/rise_294_prediction_serving_lecture.pptx), [pdf](assets/slides/rise_294_prediction_serving_lecture.pdf)]
+
+* *Managing the Machine Learning Lifecycle* presented by Giulio Zhou [[pptx](assets/slides/managing_the_ml_lifecycle.pptx), [pdf](assets/slides/managing_the_ml_lifecycle.pdf)]
+
+* *Incrementally Maintaining Classification Using an RDBMS* presented by Noah Golmant [[pptx](assets/slides/incrementally_maintaining_classification_using_an_rdbms_hazy.pptx), [pdf](assets/slides/incrementally_maintaining_classification_using_an_rdbms_hazy.pdf)]
+
+* *The LASER, Clipper, and TensorFlow Prediction Serving Systems* presented by Daniel Crankshaw [[pptx](assets/slides/prediction-serving-systems-cs294-RISE_seminar.pptx), [pdf](assets/slides/prediction-serving-systems-cs294-RISE_seminar.pdf)]
+
+
 ## Reading lists:
 
 ### Prediction Serving Systems [Daniel Crankshaw]
