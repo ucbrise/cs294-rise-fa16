@@ -74,10 +74,18 @@ While much of the focus of machine learning research is on the process of traini
 
    * **Google's Tensor Processing Unit (TPU)**:
 
+      * IEEE Spectrum Article: [Google Translate Gets a Deep-Learning Upgrade](http://spectrum.ieee.org/tech-talk/computing/software/google-translate-gets-a-deep-learning-upgrade)
+
+      * Technical paper on the TPU [Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/abs/1609.08144)
+
       * [Google's Tensor Processing Unit explained: this is what the future of computing looks like](http://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-computing-looks-like-1326915)
 
       * [Google supercharges machine learning tasks with TPU custom chip](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html)
 
+
+1. **Security and Prediction Serving**:
+
+   *Florian Tramèr, Fan Zhang, Ari Juels, Michael K. Reiter, and Thomas Ristenpart* [Stealing Machine Learning Models via Prediction APIs](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/tramer)
 
 
 
