@@ -114,12 +114,12 @@ This is a table containing items covered in the class.
       <td> 10/10/2016 </td>
       <td>
          <h4>
-            <a href="{{ site.baseurl }}/missing">
+            <a href="{{ site.baseurl }}/robust_ml.html">
             Guest Speaker: Moritz Hardt
             </a>
          </h4>
          <p>
-            Summary!
+            Moritz will talk about work on new tools for reliable data science.
          </p>
          <center><h3>
             Project Team Selections
