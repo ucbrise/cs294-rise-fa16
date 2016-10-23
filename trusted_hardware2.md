@@ -27,7 +27,7 @@ In this lecture, we discuss how we can use SGX to secure distributed systems suc
 
 ### Questions:
 
-TBA
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSd9XdgWthHmx6VU_AjQJjFKeV8QuIJCGHGmoXcgMDF_6bhyew/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
