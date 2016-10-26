@@ -63,14 +63,18 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 ### Important Neural Architectures [Francois Belletti]
 
-1. *Szegedy et al.* [**Going Deeper with Convolutions**](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), CVPR'15.
-   There is also a shorter [inception blog post](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html).
+1. *Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton* [**ImageNet Classification with Deep Convolutional Neural Networks**](http://papers.nips.cc/paper/4824-imagenet-classification-w), NIPS'12.
+
+1. Blog post. [Recurrent Neural Networks and LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
 
 #### Optional Reading
 
 1. *Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel.* [**Backpropagation applied to handwritten zip code recognition**](http://yann.lecun.org/exdb/publis/pdf/lecun-89e.pdf). Neural Comput. 1, 4 (December 1989)
 
-1. *Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton* [**ImageNet Classification with Deep Convolutional Neural Networks**](http://papers.nips.cc/paper/4824-imagenet-classification-w), NIPS'12.
+
+1. *Szegedy et al.* [**Going Deeper with Convolutions**](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), CVPR'15.
+   There is also a shorter [inception blog post](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html).
 
 1. *Jiquan Ngiam, Aditya Khosla, Mingyu Kim, Juhan Nam, Honglak Lee, and Andrew Y. Ng* [**Multimodal Deep Learning**](http://www.andrewng.org/portfolio/multimodal-deep-learning/), ICML'11.
 
