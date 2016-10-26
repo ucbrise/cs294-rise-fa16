@@ -7,7 +7,70 @@ use_math: true
 
 This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on developments in deep learning related to model compression, time-series modeling, as well as serving deep models.
 
-Content to be added soon!
+For those who want a good introduction to big ideas in deep learning checkout the following links:
+
+1. The Stanford [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu) course has excellent [Exercises and Tutorials](http://cs231n.github.io) and some good [slides](http://cs231n.stanford.edu/syllabus.html) as well.
+   1. [Linear Regression and Softmax](http://cs231n.github.io/linear-classify/)
+   1. [Gradient Descent](http://cs231n.github.io/optimization-1/)
+   1. [Backpropagation as Dynamic Programming](http://cs231n.github.io/optimization-2/)
+   1. [Network Architecture and Terminology](http://cs231n.github.io/neural-networks-1/)
+   1. [Convolution](http://cs231n.github.io/convolutional-networks/)
+
+
+1. Chris Olah's blog has some good tutorials as well:
+   1. [Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
+   1. [Types of Neural Networks](http://colah.github.io/posts/2015-09-NN-Types-FP/)
+   1. [Recurrent Neural Networks and LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [More advanced RNNs and Turing Machines](http://distill.pub/2016/augmented-rnns/)
+   1. [Convolutional Networks](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+
+
+1. The WildML Blog and [Glossary](http://www.wildml.com/deep-learning-glossary/)
+   1. [Recurrent Neural Networks](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
+
+
+
+## Reading List:
+
+
+### Model Quantization and Compression
+
+1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
+
+1. *Geoffrey Hinton, Oriol Vinyals, Jeff Dean* [**Distilling the Knowledge in a Neural Network**](https://arxiv.org/abs/1503.02531), ICLR'16.
+
+#### Optional Reading
+
+1. *Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen* [**Compressing Neural Networks with the Hashing Trick**](https://arxiv.org/abs/1504.04788), ICML 15.
+
+
+1. *Forrest N. Iandola, Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, Kurt Keutzer* [**SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size**](https://arxiv.org/abs/1602.07360) arXiv only
+
+
+
+### Scalable Training Systems
+
+1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
+
+#### Optional Reading
+
+1. *Martín Abadi et al.* [**TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems**](https://arxiv.org/abs/1603.04467), arXiv only 2016.
+
+1. For those interested in learning more about TensorFlow checkout the [tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html).
+
+1. *Forrest N. Iandola, Khalid Ashraf, Matthew W. Moskewicz, and Kurt Keutzer* [**FireCaffe: near-linear acceleration of deep neural network training on compute clusters**](https://arxiv.org/abs/1511.00175) CVPR 2016. [[Forrest's Slides](https://cs.stanford.edu/~jhoffman/yahooJapan_Mar2016_talks/Forrest_FireCaffe_Yahoo_2016-03-20.pdf)], arXiv only
+
+1. [**Caffe Tutorial**](http://caffe.berkeleyvision.org/tutorial/)
+
+### Important Neural Architectures
+
+1. *Szegedy et al.* [**Going Deeper with Convolutions**](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), CVPR'15.
+   There is also a shorter [inception blog post](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html).
+
+
+
+
+
+### Additional reading coming soon...
 
 <!--
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
