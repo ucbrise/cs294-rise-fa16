@@ -32,7 +32,7 @@ For those who want a good introduction to big ideas in deep learning checkout th
 ## Reading List:
 
 
-### Model Quantization and Compression
+### Model Quantization and Compression [Sammy Sidhu and Xin Wang]
 
 1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
 
@@ -47,7 +47,7 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 
 
-### Scalable Training Systems
+### Scalable Training Systems [Francois Bellletti]
 
 1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
 
