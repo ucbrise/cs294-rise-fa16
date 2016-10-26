@@ -32,7 +32,7 @@ For those who want a good introduction to big ideas in deep learning checkout th
 ## Reading List:
 
 
-### Model Quantization and Compression [Sammy Sidhu and Xin Wang]
+### Model Quantization and Compression [Xin Wang]
 
 1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
 
@@ -47,7 +47,7 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 
 
-### Scalable Training Systems [Francois Bellletti]
+### Scalable Training Systems [Sammy Sidhu]
 
 1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
 
@@ -61,16 +61,28 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 1. [**Caffe Tutorial**](http://caffe.berkeleyvision.org/tutorial/)
 
-### Important Neural Architectures
+### Important Neural Architectures [Francois Belletti]
 
 1. *Szegedy et al.* [**Going Deeper with Convolutions**](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf), CVPR'15.
    There is also a shorter [inception blog post](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html).
 
+#### Optional Reading
 
+1. *Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel.* [**Backpropagation applied to handwritten zip code recognition**](http://yann.lecun.org/exdb/publis/pdf/lecun-89e.pdf). Neural Comput. 1, 4 (December 1989)
 
+1. *Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton* [**ImageNet Classification with Deep Convolutional Neural Networks**](http://papers.nips.cc/paper/4824-imagenet-classification-w), NIPS'12.
 
+1. *Jiquan Ngiam, Aditya Khosla, Mingyu Kim, Juhan Nam, Honglak Lee, and Andrew Y. Ng* [**Multimodal Deep Learning**](http://www.andrewng.org/portfolio/multimodal-deep-learning/), ICML'11.
 
-### Additional reading coming soon...
+1. *Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov.* [**Dropout: A Simple Way to Prevent Neural Networks from Overfitting**](http://www.jmlr.org/papers/volume15/srivastava14a.old/source/srivastava14a.pdf), JMLR'14.
+
+1. *Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.* [**Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks**](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks), NIPS'15.
+
+1. *Felix A. Gers, Jürgen A. Schmidhuber, and Fred A. Cummins.* [**Learning to Forget: Continual Prediction with LSTM.**](ftp://ftp.idsia.ch/pub/juergen/FgGates-NC.pdf) Neural Comput. 12, 10 (October 2000), 2451-2471.
+
+1. *Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, Yoshua Bengio* [**Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling**](https://arxiv.org/abs/1412.3555), NIPS'14 Deep Learning Workshop.
+
+### Questions coming soon!
 
 <!--
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
