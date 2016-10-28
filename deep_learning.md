@@ -94,7 +94,11 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 
 
-### Questions coming soon!
+### Questions
+
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSdeBCh5tunG5L5Aa2HKagsmDohmUMNP90MmKIuCdtPiOM0nmw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
 
 <!--
 While much of the focus of machine learning research is on the process of training models (i.e., learning) there are a unique set of challenges around the process of serving and updating those models that is often overlooked.
