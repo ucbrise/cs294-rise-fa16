@@ -31,36 +31,6 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 ## Reading List:
 
-
-### Model Quantization and Compression [Xin Wang]
-
-1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
-
-1. *Geoffrey Hinton, Oriol Vinyals, Jeff Dean* [**Distilling the Knowledge in a Neural Network**](https://arxiv.org/abs/1503.02531), ICLR'16.
-
-#### Optional Reading
-
-1. *Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen* [**Compressing Neural Networks with the Hashing Trick**](https://arxiv.org/abs/1504.04788), ICML 15.
-
-
-1. *Forrest N. Iandola, Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, Kurt Keutzer* [**SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size**](https://arxiv.org/abs/1602.07360) arXiv only
-
-
-
-### Scalable Training Systems [Sammy Sidhu]
-
-1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
-
-#### Optional Reading
-
-1. *Martín Abadi et al.* [**TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems**](https://arxiv.org/abs/1603.04467), arXiv only 2016.
-
-1. For those interested in learning more about TensorFlow checkout the [tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html).
-
-1. *Forrest N. Iandola, Khalid Ashraf, Matthew W. Moskewicz, and Kurt Keutzer* [**FireCaffe: near-linear acceleration of deep neural network training on compute clusters**](https://arxiv.org/abs/1511.00175) CVPR 2016. [[Forrest's Slides](https://cs.stanford.edu/~jhoffman/yahooJapan_Mar2016_talks/Forrest_FireCaffe_Yahoo_2016-03-20.pdf)], arXiv only
-
-1. [**Caffe Tutorial**](http://caffe.berkeleyvision.org/tutorial/)
-
 ### Important Neural Architectures [Francois Belletti]
 
 1. *Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton* [**ImageNet Classification with Deep Convolutional Neural Networks**](http://papers.nips.cc/paper/4824-imagenet-classification-w), NIPS'12.
@@ -85,6 +55,44 @@ For those who want a good introduction to big ideas in deep learning checkout th
 1. *Felix A. Gers, Jürgen A. Schmidhuber, and Fred A. Cummins.* [**Learning to Forget: Continual Prediction with LSTM.**](ftp://ftp.idsia.ch/pub/juergen/FgGates-NC.pdf) Neural Comput. 12, 10 (October 2000), 2451-2471.
 
 1. *Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, Yoshua Bengio* [**Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling**](https://arxiv.org/abs/1412.3555), NIPS'14 Deep Learning Workshop.
+
+
+
+
+### Scalable Training Systems [Sammy Sidhu]
+
+1. *Martín Abadi et al.* [**TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems**](https://arxiv.org/abs/1603.04467), arXiv only 2016.
+
+#### Optional Reading
+
+1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
+
+1. For those interested in learning more about TensorFlow checkout the [tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html).
+
+1. *Forrest N. Iandola, Khalid Ashraf, Matthew W. Moskewicz, and Kurt Keutzer* [**FireCaffe: near-linear acceleration of deep neural network training on compute clusters**](https://arxiv.org/abs/1511.00175) CVPR 2016. [[Forrest's Slides](https://cs.stanford.edu/~jhoffman/yahooJapan_Mar2016_talks/Forrest_FireCaffe_Yahoo_2016-03-20.pdf)], arXiv only
+
+1. [**Caffe Tutorial**](http://caffe.berkeleyvision.org/tutorial/)
+
+
+
+
+
+### Model Quantization and Compression [Xin Wang]
+
+1. *Geoffrey Hinton, Oriol Vinyals, Jeff Dean* [**Distilling the Knowledge in a Neural Network**](https://arxiv.org/abs/1503.02531), ICLR'16.
+
+1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
+
+#### Optional Reading
+
+1. *Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen* [**Compressing Neural Networks with the Hashing Trick**](https://arxiv.org/abs/1504.04788), ICML 15.
+
+
+1. *Forrest N. Iandola, Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, Kurt Keutzer* [**SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size**](https://arxiv.org/abs/1602.07360) arXiv only
+
+
+
+
 
 ### Questions coming soon!
 
