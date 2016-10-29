@@ -81,9 +81,10 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 1. *Geoffrey Hinton, Oriol Vinyals, Jeff Dean* [**Distilling the Knowledge in a Neural Network**](https://arxiv.org/abs/1503.02531), ICLR'16.
 
+#### Optional Reading
+
 1. *Song Han, Huizi Mao, William J. Dally* [**Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding**](https://arxiv.org/abs/1510.00149), ICLR'16.
 
-#### Optional Reading
 
 1. *Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen* [**Compressing Neural Networks with the Hashing Trick**](https://arxiv.org/abs/1504.04788), ICML 15.
 
