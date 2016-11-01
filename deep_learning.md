@@ -1,11 +1,21 @@
 ---
 layout: page
-title: "Deep Learning (Joey)"
-description: "Deep Learning (Joey)"
+title: "Deep Learning"
+description: "Deep Learning"
 use_math: true
 ---
 
-This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on developments in deep learning related to model compression, time-series modeling, as well as serving deep models.
+This lecture will cover an overview of developments in deep learning and then we will dive into several recent papers on developments in deep learning related to convolutional networks, model compression, time-series modeling, and distributed deep learning.
+
+### Lecture Slides:
+
+1. Overview of Deep Learning [[pptx](assets/slides/overview_of_deep_learning_final.pptx)][[pdf](assets/slides/overview_of_deep_learning_final.pdf)]
+   * TensorFlow Example [[direct link](assets/slides/two_hidden_layers_tensorflow_example.ipynb)][[view](f)]
+
+
+---
+
+# Notes
 
 For those who want a good introduction to big ideas in deep learning checkout the following links:
 
