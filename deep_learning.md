@@ -9,13 +9,17 @@ This lecture will cover an overview of developments in deep learning and then we
 
 ### Lecture Slides:
 
-1. Overview of Deep Learning [[pptx](assets/slides/overview_of_deep_learning_final.pptx)][[pdf](assets/slides/overview_of_deep_learning_final.pdf)]
+1. Joseph Gonzalez *Overview of Deep Learning* [[pptx](assets/slides/overview_of_deep_learning_final.pptx)][[pdf](assets/slides/overview_of_deep_learning_final.pdf)]
 
    * TensorFlow Example [[direct link](assets/slides/two_hidden_layers_tensorflow_example.ipynb)][[view](https://github.com/ucbrise/cs294-rise-fa16/blob/gh-pages/assets/slides/two_hidden_layers_tensorflow_example.ipynb)]
 
    * Symbolic Algebra [[direct link](assets/slides/symbolic_algebra.ipynb)][[view](https://github.com/ucbrise/cs294-rise-fa16/blob/gh-pages/assets/slides/symbolic_algebra.ipynb)]
 
-1. Principles of Neural Network Design [[pdf](assets/slides/principles_of_neural_network_design.pdf)]
+1. Francois Belletti *Principles of Neural Network Design*  [[pdf](assets/slides/principles_of_neural_network_design.pdf)]
+
+1. Xin Wang *Deep Model Compression* [[pdf](assets/slides/ModelCompression_RISE.pdf)]
+
+
 
 
 
