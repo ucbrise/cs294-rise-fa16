@@ -19,7 +19,7 @@ This lecture will cover an overview of developments in deep learning and then we
 
 1. Xin Wang *Deep Model Compression* [[pdf](assets/slides/ModelCompression_RISE.pdf)]
 
-
+1. Sammy Sidhu *Scalable Deep Learning* [[pdf](assets/slides/scalable_deep_learning_cs294.pdf)]
 
 
 
