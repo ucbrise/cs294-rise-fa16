@@ -14,16 +14,17 @@ In this lecture, we are looking at a leakage that occurs in a distributed settin
 <a href="http://dl.acm.org/citation.cfm?id=2813695">Observing and Preventing Leakage in MapReduce,</a> Ohrimenko et al 
 
 
-Opaque: A Data Analytics Platform with Strong Security, Zheng et al 
+Opaque: A Data Analytics Platform with Strong Security, Zheng et al   (confidential paper, in submission, see Piazza)
 
+### Optional reading:
 
 <a href="https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_ohrimenko.pdf">
 Oblivious Multi-Party Machine Learning on Trusted Processors</a>, Ohrimenko et al
 
 ### Questions:
 
-TBA
 
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSfUk8eeUfQ3SWzj3QKVuG9FSKQGLuVGDVuSINHvU6wqNnlkOQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <!-- ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
 
