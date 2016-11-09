@@ -10,12 +10,16 @@ use_math: true
 
 ## Reading lists:
 
-### Google Goods [?Student Presenters?]
-1. *Halevy, Korn, Noy, et al.*  [**Goods: Organizing Google’s Datasets.**](http://sure) In SIGMOD 2016.
+1. *Halevy, Korn, Noy, et al.*  [**Goods: Organizing Google’s Datasets.**](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45390.pdf) In SIGMOD 2016.
+
+1. *Hellerstein, Sreekanti, Gonzalez, et al.* 2016. [**Establishing Common Ground with Data Context.**](https://github.com/ground-context/ground/blob/master/CIDR17.pdf) In CIDR'17. [[direct pdf link](https://github.com/ground-context/ground/raw/master/CIDR17.pdf)]
 
 
-### Ground [?Student Presenters?]
-1. *Hellerstein, Sreekanti, Gonzalez, et al.* 2016. [**Establishing Common Ground with Data Context**](under submission).
+1. *Vu Lee and Sumit Gulwani.* 2014. [**FlashExtract: A Framework for Data Extraction by Examples**](http://msr-waypoint.com/en-us/um/people/sumitg/pubs/pldi14-flashextract.pdf) In PLDI'14.
+
+    * **Optional Reading**: *Sumit Gulwani, José Hernández-Orallo, Emanuel Kitzelmann, Stephen H. Muggleton, Ute Schmid, and Benjamin Zorn* 2015 [**Inductive Programming Meets the Real World**](http://cacm.acm.org/magazines/2015/11/193326-inductive-programming-meets-the-real-world/fulltext) [[pdf version](http://cacm.acm.org/magazines/2015/11/193326-inductive-programming-meets-the-real-world/pdf)] In CACM'15.
+
+1. *Marco D. Adelfio and Hanan Samet* 2013. [**Schema Extraction for Tabular Data on the Web**](http://www.vldb.org/pvldb/vol6/p421-adelfio.pdf) In VLDB'13.
 
 
 ### Questions:
