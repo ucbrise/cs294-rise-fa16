@@ -179,15 +179,15 @@ This is a table containing items covered in the class.
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
-      <td> 11/14/2016 </td>
+      <td> 11/28/2016 </td>
       <td>
          <h4>
-            <a href="{{ site.baseurl }}/realtime_systems.html">
-               Realtime Systems (Ion)
+            <a href="{{ site.baseurl }}/metadata.html">
+               Data Context and Metadata Management (Joe)
             </a>
          </h4>
          <p>
-            Short summary
+We are missing so much rich contextual metadata in our data analysis projects: what data we have, why we have it, how and by whom it gets used, and how all these aspects evolve over time. This *data context* problem raises interesting systems challenges while also suggesting opportunities for new applications and algorithms to significantly improve the efficiency of data analysts.
          </p>
       </td>
    </tr>
@@ -207,18 +207,23 @@ This is a table containing items covered in the class.
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
-      <td> 11/28/2016 </td>
+      <td> 11/14/2016 </td>
       <td>
          <h4>
-            <a href="{{ site.baseurl }}/metadata.html">
-               Data Context and Metadata Management (Joe)
+            <a href="{{ site.baseurl }}/realtime_systems.html">
+               Realtime Systems (Ion)
             </a>
          </h4>
          <p>
-We are missing so much rich contextual metadata in our data analysis projects: what data we have, why we have it, how and by whom it gets used, and how all these aspects evolve over time. This *data context* problem raises interesting systems challenges while also suggesting opportunities for new applications and algorithms to significantly improve the efficiency of data analysts.
+            Short summary
          </p>
       </td>
    </tr>
+
+
+
+
+
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
       <td> 12/5/2016 </td>
