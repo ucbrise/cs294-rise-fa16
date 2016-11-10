@@ -179,7 +179,7 @@ This is a table containing items covered in the class.
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
-      <td> 11/28/2016 </td>
+      <td> 11/14/2016 </td>
       <td>
          <h4>
             <a href="{{ site.baseurl }}/metadata.html">
@@ -207,7 +207,7 @@ We are missing so much rich contextual metadata in our data analysis projects: w
    </tr>
    <tr>
       <th> {{ counter }} {% assign counter = counter | plus: 1 %} </th>
-      <td> 11/14/2016 </td>
+      <td> 11/28/2016 </td>
       <td>
          <h4>
             <a href="{{ site.baseurl }}/realtime_systems.html">
