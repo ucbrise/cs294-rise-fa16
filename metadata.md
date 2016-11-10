@@ -32,9 +32,11 @@ use_math: true
 
 4. Google Goods exists within the restricted Google ecosystem of applications, protocols and APIs. What research opportunities might arise in trying to work with 3rd-party systems?
 
-4. The Gulwani CACM '15 article argues that Inductive Programming is particularly useful for "small data", where "the number of examples is small but the hypothesis space is large (Turing-complete)". How do you view that claim vis-a-vis other learning techniques we've seen? How does it relate to application scenarios we foresee in the RISE lab?
+5. The Adelfio/Samet paper makes use of CRFs, which are a popular probabilistic model for sequential data like text. Would deep LSTM networks be an interesting alternative in this context? Note also that many tables have visually identifiable features when rendered; is there a role for convolutional networks in extracting tabular structure?
 
-5. FlashExtract and the Adelfio/Samet work address similar problems but make different assumptions about user interaction. What are those differences? Do the techniques depend critically on their choices of inputs/outputs, and if so how? 
+6. The Gulwani CACM '15 article argues that Inductive Programming is particularly useful for "small data", where "the number of examples is small but the hypothesis space is large (Turing-complete)". How do you view that claim vis-a-vis ML techniques we've seen? How does it relate to application scenarios we foresee in the RISE lab?
+
+7. FlashExtract and the Adelfio/Samet work address similar problems but make different assumptions about user interaction. What are those differences? Do the techniques depend critically on their choices of inputs/outputs, and if so how? 
 
 
 <!--
