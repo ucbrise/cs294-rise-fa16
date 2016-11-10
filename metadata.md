@@ -26,6 +26,15 @@ use_math: true
 
 1. How do Ground and Goods differ in goals and design? Can either one grow up to serve the goals of the other or are they fundamentally divergent?
 
+2. Ground proposes that both graph data and usage (log) data are key to establishing context. Do you think a single storage system would be plausible for both? What might be a challenging task that requires looking at both kinds of data?
+
+3. Google Goods has chosen a certain front-end usage scenario--what the Ground paper would refer to as "above-ground" applications. Do you think this is the right first choice for Google? For others? What other application scenarios would be worth pursuing, particularly in the context of the RISE lab?
+
+4. Google Goods exists within the restricted Google ecosystem of applications, protocols and APIs. What research opportunities might arise in trying to work with 3rd-party systems?
+
+4. The Gulwani CACM '15 article argues that Inductive Programming is particularly useful for "small data", where "the number of examples is small but the hypothesis space is large (Turing-complete)". How do you view that claim vis-a-vis other learning techniques we've seen? How does it relate to application scenarios we foresee in the RISE lab?
+
+5. FlashExtract and the Adelfio/Samet work address similar problems but make different assumptions about user interaction. What are those differences? Do the techniques depend critically on their choices of inputs/outputs, and if so how? 
 
 
 <!--
