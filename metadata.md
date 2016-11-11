@@ -24,6 +24,9 @@ use_math: true
 
 ### Questions:
 
+<iframe src="https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSd2zxWEW1LHtpqEpiICOApbvX4TH5CSqDYsQ6767tYGGhM2bw/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<!-- 
 1. How do Ground and Goods differ in goals and design? Can either one grow up to serve the goals of the other or are they fundamentally divergent?
 
 2. Ground proposes that both graph data and usage (log) data are key to establishing context. Do you think a single storage system would be plausible for both? What might be a challenging task that requires looking at both kinds of data?
@@ -38,7 +41,7 @@ use_math: true
 
 7. FlashExtract and the Adelfio/Samet work address similar problems but make different assumptions about user interaction. What are those differences? Do the techniques depend critically on their choices of inputs/outputs, and if so how? 
 
-
+ -->
 <!--
 
 Formatting with Kramdown (github style markdown):
