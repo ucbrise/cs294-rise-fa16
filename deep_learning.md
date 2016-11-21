@@ -87,7 +87,19 @@ For those who want a good introduction to big ideas in deep learning checkout th
 
 1. *Martín Abadi et al.* [**TensorFlow: A system for large-scale machine learning**](https://arxiv.org/abs/1605.08695), arXiv only 2016.
 
+   * **Google's Tensor Processing Unit (TPU)**:
+
+      * IEEE Spectrum Article: [Google Translate Gets a Deep-Learning Upgrade](http://spectrum.ieee.org/tech-talk/computing/software/google-translate-gets-a-deep-learning-upgrade)
+
+      * Technical paper on the TPU [Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/abs/1609.08144)
+
+      * [Google's Tensor Processing Unit explained: this is what the future of computing looks like](http://www.techradar.com/news/computing-components/processors/google-s-tensor-processing-unit-explained-this-is-what-the-future-of-computing-looks-like-1326915)
+
+      * [Google supercharges machine learning tasks with TPU custom chip](https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html)
+
+
 1. For those interested in learning more about TensorFlow checkout the [tutorials](https://www.tensorflow.org/versions/r0.11/tutorials/index.html).
+
 
 1. *Forrest N. Iandola, Khalid Ashraf, Matthew W. Moskewicz, and Kurt Keutzer* [**FireCaffe: near-linear acceleration of deep neural network training on compute clusters**](https://arxiv.org/abs/1511.00175) CVPR 2016. [[Forrest's Slides](https://cs.stanford.edu/~jhoffman/yahooJapan_Mar2016_talks/Forrest_FireCaffe_Yahoo_2016-03-20.pdf)], arXiv only
 

@@ -21,6 +21,11 @@ This lecture will provide an overview of machine learning techniques for decisio
 1. *David Silver, Aja Huang, Chris J. Maddison, Arthur Guez, Laurent Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Veda Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal Kalchbrenner, Ilya Sutskever, Timothy Lillicrap, Madeleine Leach, Koray Kavukcuoglu, Thore Graepel & Demis Hassabis*
 [**Mastering the game of Go with deep neural networks and tree search**](http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf) Nature 2016.
 
+1. *Arun Nair, Praveen Srinivasan, Sam Blackwell, Cagdas Alcicek, Rory Fearon, Alessandro De Maria, Vedavyas Panneershelvam, Mustafa Suleyman, Charles Beattie, Stig Petersen, Shane Legg, Volodymyr Mnih, Koray Kavukcuoglu, David Silver* [**Massively Parallel Methods for Deep Reinforcement Learning**](https://arxiv.org/pdf/1507.04296.pdf), arXiv 2015.
+
+1. *Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu* [**Asynchronous Methods for Deep Reinforcement Learning**](https://arxiv.org/abs/1602.01783), arXiv 2016.
+
+
 <!-- 1. *Gerald Tesauro* [**Temporal Difference Learning and TD-Gammon**](http://courses.cs.washington.edu/courses/cse590hk/01sp/Readings/tesauro95cacm.pdf). CACM'95.
 
 
