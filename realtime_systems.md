@@ -7,8 +7,6 @@ use_math: true
 
 Much of the focus of the Real-time Systems research is on resource allocation and scheduling that ensure that jobs meet their timeline guarantees. In this lecture, we will go over several papers that touch on the main challenges and tradeoffs. These include handling bursty (interactive) workloads, heterogenous traffic, parallel jobs, and multitenancy.
 
-In this lecture we will go over some of the 
-
 ### Basic real-time scheduling
 *C. L. Liu, J Layland.* 1973. [**Scheduling algorithms for multiprogramming in a hard real-time environment.**](http://igm.univ-mlv.fr/~masson/pdfANDps/liulayland73.pdf) Journal of the ACM, 20 (1): 46–61.
 
