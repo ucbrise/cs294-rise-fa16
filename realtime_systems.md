@@ -5,7 +5,22 @@ description: "Realtime Systems (Ion)"
 use_math: true
 ---
 
-Content to be added soon!
+Much of the focus of the Real-time Systems research is on resource allocation and scheduling that ensure that jobs meet their timeline guarantees. In this lecture, we will go over several papers that touch on the main challenges and tradeoffs. These include handling bursty (interactive) workloads, heterogenous traffic, parallel jobs, and multitenancy.
+
+In this lecture we will go over some of the 
+
+### Basic real-time scheduling
+*C. L. Liu, J Layland.* 1973. [**Scheduling algorithms for multiprogramming in a hard real-time environment.**](http://igm.univ-mlv.fr/~masson/pdfANDps/liulayland73.pdf) Journal of the ACM, 20 (1): 46–61.
+
+### Handling bursty traffic and hierarchical allocation
+*Ion Stoica, Hui Zhang, T. S. Eugene.* 1997. [**A Hierarchical Fair Service Curve Algorithm for Link-Sharing, Real-Time and Priority Service.**](https://www.cs.cmu.edu/~hzhang/papers/SIGCOM97.pdf) SIGCOMM'97.
+
+### Handling multiple types of resources
+*Ali Ghodsi, Matei Zaharia, Benjamin Hindman, Andy Konwinski, Scott Shenker, Ion Stoica.* 2011. [**Dominant Resource Fairness: Fair Allocation of Multiple Resource Types.**](https://www.cs.berkeley.edu/~alig/papers/drf.pdf) NSDI'11.
+
+### Low latency schgeduling of dependent tasks
+*Dror G. Feitelson, Larry Rudolph.* 1992. [**Gang Scheduling Performance Benefits for Fine-Grain Synchronization.**](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.79.7070) Journal of Parallel and Distributed Computing. 16: 306–318.
+
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
