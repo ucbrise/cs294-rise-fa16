@@ -215,7 +215,7 @@ We are missing so much rich contextual metadata in our data analysis projects: w
             </a>
          </h4>
          <p>
-            Short summary
+            Much of the focus of the Real-time Systems research is on resource allocation and scheduling that ensure that jobs meet their timeline guarantees. In this lecture, we will go over several papers that touch on the main challenges and tradeoffs. These include handling bursty (interactive) workloads, heterogenous traffic, parallel jobs, and multitenancy.
          </p>
       </td>
    </tr>
