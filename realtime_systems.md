@@ -20,7 +20,8 @@ Much of the focus of the Real-time Systems research is on resource allocation an
 *Dror G. Feitelson, Larry Rudolph.* 1992. [**Gang Scheduling Performance Benefits for Fine-Grain Synchronization.**](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.79.7070) Journal of Parallel and Distributed Computing. 16: 306–318.
 
 ### Questions
-Questions are available [here](https://goo.gl/forms/bWfRhOm37KkZ73Ft1)
+Questions are available [here](https://goo.gl/forms/bWfRhOm37KkZ73Ft1).
+
 
 <!--
 ![ML-Lifecycle](assets/images/ml-lifecycle.jpg){:width="400px"}
