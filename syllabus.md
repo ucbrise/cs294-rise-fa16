@@ -201,7 +201,7 @@ We are missing so much rich contextual metadata in our data analysis projects: w
             </a>
          </h4>
          <p>
-            This lecture will provide an overview of recent developments in bandit and reinforcement learning techniques.
+            This lecture covers the key ideas in bandits and reinforcement learning.
          </p>
       </td>
    </tr>
