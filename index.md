@@ -7,28 +7,11 @@ mastimage: /assets/images/rise_cloud.jpg
 {% include JB/setup %}
 
 
+# Update 
 
+Check out the new [AI Systems Class](https://ucbrise.github.io/cs294-ai-sys-sp19/) offered Spring 2019.
 
-<!--
- Relative links:
-   link to readings [pages](reading)
-   relative path of site {{ site.baseurl }}
-
- Running jekyll serve locally:
-
-    bundle exec jekyll serve --baseurl ''
-
- liquid programming example (we should never really need this):
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-
- -->
-
+**Fall 2016**
 **Mondays from 3:30 to 5:30 in Soda 405**
 
 
